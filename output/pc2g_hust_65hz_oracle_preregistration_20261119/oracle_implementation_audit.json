@@ -1,0 +1,317 @@
+{
+  "status": "completed",
+  "archive_inspection": {
+    "status": "completed_read_only",
+    "source_manifest": {
+      "path": "output/pc2g_cross_dataset_stage2/hust_manifest.csv",
+      "sha256": "9c24485ed4caeeb25f8fb42a9e9141efc2cb0d8d7c6affda4017ca35eec196ac",
+      "65hz_windows": 729
+    },
+    "historical_protocol": {
+      "path": "output/pc2g_hust_65hz_path_20261119/protocol.json",
+      "sha256": "41caa79d481ed3c998fc19b808050cfdc153746e44f31b1605cf2d1ecd50353a"
+    },
+    "historically_pinned_source_sha256": {
+      "experiments/msdgn_distribution/train.py": "5980eaab52b00de94d8b4062a2eb31c9302e2e22d6cdba4a1649773c390fd3fc",
+      "experiments/msdgn_distribution/modules.py": "0a5c8b6ad55d57ef83988a1fe545faacf4cd7136314f4902984404939a55c364",
+      "experiments/pc2g_cross_dataset/run_pilot.py": "5fca2d029d9542ff61c8f73e05b7c7a33eaf2fbee55c800e47f045ff64fc8d93",
+      "experiments/pc2g_cross_dataset/path_worker.py": "111a2ce93015ef6f2b958a1219c3cd61fd49a145ecd0de66d57e0ae9807cfe93",
+      "experiments/pc2g_cross_dataset/rotation_worker.py": "6abf95062c249aa627f0792f8be239f042f7978285cb8ecbf90cfbe458672810",
+      "experiments/pc2g_cross_dataset/tasks.py": "07506cbb76c1d25145c3b937e2e33f07e7ab699ee4ed96e8b5fe886c8b2013a9",
+      "experiments/pc2g_research_audit/core.py": "3f953cef13b8903f66bfe39c54a487365c0521ac7849677b6780bdc9b2c1a55d"
+    },
+    "asserted_scope": "All source-pair index, label and mask comparisons cover 5000 logged steps in each seed. A/B source trace arrays are identical. Anchor q masks/targets and sampling arrays equal A. Historical A/B checkpoint, config, and loss-history checksums matched their source receipts.",
+    "archived_order_available": false,
+    "archived_anchor_logits_shape": [
+      5000,
+      2,
+      64,
+      9
+    ],
+    "archived_anchor_logits_dtype": "float32",
+    "tie_observation": "All bitwise identical adjusted-logit row pairs in the 65 Hz anchor are repeat occurrences of the same source window. The counts describe logits, not recovered CUDA entropy ranks.",
+    "by_seed": [
+      {
+        "seed": 0,
+        "source_archives": {
+          "A": {
+            "directory": "runs/pc2g_cross_dataset_pilot_20261117/hust-t3-L0-s0-full-B1",
+            "receipt_sha256": "4045223dfd9d8ec519206d8d00473655cc3b4b086c04d6a6576dda2eb9a7b169",
+            "training_predictions_sha256": "71c92a295a0a7b28ba680c659d7a5587597d83b13240169409ce5dc0fc446fc3"
+          },
+          "B": {
+            "directory": "runs/pc2g_hust_65hz_path_20261119/hust-t3-L0-s0-path-B",
+            "receipt_sha256": "13988d2918f5f46e2bc2c15ff23218cf1022c78fbfd6c894fd497f02253e7ece",
+            "training_predictions_sha256": "71c92a295a0a7b28ba680c659d7a5587597d83b13240169409ce5dc0fc446fc3"
+          },
+          "order_anchor": {
+            "directory": "runs/pc2g_cross_dataset_pilot_20261117/hust-t3-L0-s0-raw-B0",
+            "receipt_sha256": "bf8714c24af7060a54792c795f9c99c3079f29fe813b4e02aa79aec841e3cd91",
+            "training_predictions_sha256": "1bf75dfd434a512b20d920ba345486103a5134b172f83a3f53c2ef27e25a04b9"
+          }
+        },
+        "shared_batch_digest": "58677896ee97466f742bb195754b27b059c3788dfa249fd0ece615b37d9b8784",
+        "shared_trajectory_digest": "3aa98b5035fb476f71f41d767787e220930ec6af93b2deb8ec9f190c90e59f29",
+        "historical_A_runtime": {
+          "torch": "2.7.1+cu128",
+          "gpu": "NVIDIA GeForce RTX 5060 Ti"
+        },
+        "historical_A_training_seconds": 520.9261865000008,
+        "historical_B_training_seconds": 522.1008267001016,
+        "historical_A_65hz_selected_occurrences": 173976,
+        "historical_A_65hz_correct_occurrences": 93197,
+        "historical_A_65hz_incorrect_occurrences": 80779,
+        "historical_A_65hz_incorrect_by_true_class": [
+          20038,
+          33,
+          23388,
+          1332,
+          1012,
+          18031,
+          797,
+          13923,
+          2225
+        ],
+        "steps_with_bitwise_identical_65hz_adjusted_logits": {
+          "any": 4735,
+          "both_selected": 3724,
+          "across_selection_boundary": 1634
+        }
+      },
+      {
+        "seed": 1,
+        "source_archives": {
+          "A": {
+            "directory": "runs/pc2g_cross_dataset_pilot_20261117/hust-t3-L0-s1-full-B1",
+            "receipt_sha256": "de1f0c0dd90a70e25f7e61943bce3cbd8bb681c43c6ac0520c0491730b769632",
+            "training_predictions_sha256": "6494554216ea2df780e8bbb9dc6857f37af3fdf2aa938b4603beb137cd0d7ec7"
+          },
+          "B": {
+            "directory": "runs/pc2g_hust_65hz_path_20261119/hust-t3-L0-s1-path-B",
+            "receipt_sha256": "77b68461343ba82cf199c27998153fe4b6e5d3ab79397fd4036be2d37642b4fa",
+            "training_predictions_sha256": "6494554216ea2df780e8bbb9dc6857f37af3fdf2aa938b4603beb137cd0d7ec7"
+          },
+          "order_anchor": {
+            "directory": "runs/pc2g_cross_dataset_pilot_20261117/hust-t3-L0-s1-raw-B0",
+            "receipt_sha256": "4ecd7886257c70b95a5fefb3f225815a2457ca5e22d53e391d7b848e2c68f414",
+            "training_predictions_sha256": "b37958a0a5e8be4c5207e0f9909ab4b34fbefc9e2ea4bf9c19550137e59b29a7"
+          }
+        },
+        "shared_batch_digest": "04bb05bc346b5dac73e68aac8a4a7f340a79000643cd8844114a84b43fdaf4c5",
+        "shared_trajectory_digest": "7f7375e61bfa0db2dbe742eb7c5205c92790d531b6ec3bb7c5181f216b2a82ee",
+        "historical_A_runtime": {
+          "torch": "2.7.1+cu128",
+          "gpu": "NVIDIA GeForce RTX 5060 Ti"
+        },
+        "historical_A_training_seconds": 522.7626848999644,
+        "historical_B_training_seconds": 548.6807253999868,
+        "historical_A_65hz_selected_occurrences": 173981,
+        "historical_A_65hz_correct_occurrences": 70250,
+        "historical_A_65hz_incorrect_occurrences": 103731,
+        "historical_A_65hz_incorrect_by_true_class": [
+          22509,
+          76,
+          23882,
+          2190,
+          684,
+          18263,
+          4006,
+          12910,
+          19211
+        ],
+        "steps_with_bitwise_identical_65hz_adjusted_logits": {
+          "any": 4703,
+          "both_selected": 3710,
+          "across_selection_boundary": 1615
+        }
+      },
+      {
+        "seed": 2,
+        "source_archives": {
+          "A": {
+            "directory": "runs/pc2g_cross_dataset_pilot_20261117/hust-t3-L0-s2-full-B1",
+            "receipt_sha256": "84ad1759767b2af09e5a079392be5a6bbbdc37efb553cc19c0b787b0f2d0a447",
+            "training_predictions_sha256": "9cdd59ab170615aa0a245bc8f6a80f73fe92d053b4898313c393461ee02f080c"
+          },
+          "B": {
+            "directory": "runs/pc2g_hust_65hz_path_20261119/hust-t3-L0-s2-path-B",
+            "receipt_sha256": "d9f4f4067e36a97bd7be1c7e081536f5c1551c7b438a7971b28625bdddaff360",
+            "training_predictions_sha256": "9cdd59ab170615aa0a245bc8f6a80f73fe92d053b4898313c393461ee02f080c"
+          },
+          "order_anchor": {
+            "directory": "runs/pc2g_cross_dataset_pilot_20261117/hust-t3-L0-s2-raw-B0",
+            "receipt_sha256": "ec2d94f3d58f77863c77123bd42c02b7b74b410eac55980438bee8c9eac8e141",
+            "training_predictions_sha256": "449ad52353798d4f56c207676b49f28a2121370d742a701d9a6503cfe56d3c9f"
+          }
+        },
+        "shared_batch_digest": "f2505e666c3503f288181cd1305851be6bdfacc4df589ad8af2a7ed21fc7f36a",
+        "shared_trajectory_digest": "55a3aaadf82f098936f744d31b77e89cce47d4b3333c8a796016274f55465ac2",
+        "historical_A_runtime": {
+          "torch": "2.7.1+cu128",
+          "gpu": "NVIDIA GeForce RTX 5060 Ti"
+        },
+        "historical_A_training_seconds": 522.4193858000217,
+        "historical_B_training_seconds": 560.4942119999323,
+        "historical_A_65hz_selected_occurrences": 174032,
+        "historical_A_65hz_correct_occurrences": 66455,
+        "historical_A_65hz_incorrect_occurrences": 107577,
+        "historical_A_65hz_incorrect_by_true_class": [
+          18706,
+          65,
+          21905,
+          538,
+          198,
+          18612,
+          10285,
+          18414,
+          18854
+        ],
+        "steps_with_bitwise_identical_65hz_adjusted_logits": {
+          "any": 4721,
+          "both_selected": 3684,
+          "across_selection_boundary": 1657
+        }
+      }
+    ],
+    "totals": {
+      "historical_A_65hz_selected_occurrences": 521989,
+      "historical_A_65hz_correct_occurrences": 229902,
+      "historical_A_65hz_incorrect_occurrences": 292087
+    }
+  },
+  "holdout": {
+    "sources_hz_in_batch_order": [
+      20,
+      35,
+      65
+    ],
+    "labeled_source_hz": 20,
+    "target_hz": 80,
+    "target_arrays_read_this_stage": false,
+    "new_target_evaluations_this_stage": 0,
+    "new_target_evaluations_planned": 3,
+    "fixed_evaluation_step": 5000
+  },
+  "budget": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "technical_updates_per_seed": {
+      "native_A": 12,
+      "archive_replay_A": 12,
+      "O": 16
+    },
+    "technical_updates": 120,
+    "new_formal_O_models": 3,
+    "formal_updates_per_O_model": 5000,
+    "formal_updates": 15000,
+    "total_planned_updates": 15120,
+    "updates_executed_this_stage": 0
+  },
+  "implementation_and_runtime_checks": [
+    {
+      "id": "archive_order",
+      "status": "passed",
+      "criterion": "Same historical FP32 CUDA selector per step and source. Exact A membership. Log ties and lock ordered slots, occurrence IDs, original targets and digests."
+    },
+    {
+      "id": "native_A_prefix",
+      "status": "passed",
+      "criterion": "Match historical sampling, masks, original targets and available losses with native A."
+    },
+    {
+      "id": "sham_A_equivalence",
+      "status": "passed",
+      "criterion": "Native A and archive replay A match ordered inputs, both heads and unmodified terms, gradients, model/Adam/BN buffers and RNG state."
+    },
+    {
+      "id": "O_65hz_only",
+      "status": "passed",
+      "criterion": "Both main heads use identical selected-only corrected targets. Original correct targets unchanged. No O truth into any other route. Do not dynamically rerun the 65 Hz selector during Oracle training."
+    },
+    {
+      "id": "weights_and_gradients",
+      "status": "passed",
+      "criterion": "Original per-source CE reductions and ramp, full 192 consistency denominator, unselected direct CE gradient zero, finite connected model gradients."
+    },
+    {
+      "id": "sources_and_target_holdout",
+      "status": "passed",
+      "criterion": "Preserve 20 Hz and 35 Hz supervision, source sample/RNG and queue rules. No target samples or target labels loaded in any training job."
+    },
+    {
+      "id": "formal_source_gate",
+      "status": "passed",
+      "criterion": "All three O seeds reach exactly step 5000 and pass all-step archive/head/source checks before 80 Hz evaluation is opened."
+    }
+  ],
+  "technical_runs_started": false,
+  "formal_runs_started": false,
+  "execution": {
+    "attempt": 2,
+    "prior_attempt": "failed_attempt_01",
+    "prior_attempt_technical_updates": 12,
+    "schedule_steps": 5000,
+    "segment_steps_per_seed": {
+      "native_A": 12,
+      "archive_replay_A": 12,
+      "O": 16
+    },
+    "archive_manifest_sha256": "9820ab9222cc4c0ad87d13ae0e301c90f92c82b2a22de4f6e67998372ba5af05",
+    "technical_updates": 120,
+    "source_audit": {
+      "passed": true,
+      "seeds": [
+        {
+          "seed": 0,
+          "steps": 5000,
+          "selected_65hz_occurrences": 173976,
+          "corrected_65hz_occurrences": 80779,
+          "retained_original_correct_65hz_occurrences": 93197,
+          "unselected_65hz_in_ce": 0,
+          "unique_selected_65hz_windows": 728,
+          "source_receipt_sha256": "a25aa85c78755ac1598df50aeac1526dac9c26e635a535325b8d6206fa546313",
+          "training_predictions_sha256": "d35534cdc80ab9c8564eb15919dbf50c3309a204ce54e999a853af37861aa5b3",
+          "checkpoint_sha256": "9d5ccb4830fda3e0b4c3af920fdb5fbd61bd13261a21f8ef1faba7c11732ae19"
+        },
+        {
+          "seed": 1,
+          "steps": 5000,
+          "selected_65hz_occurrences": 173981,
+          "corrected_65hz_occurrences": 103731,
+          "retained_original_correct_65hz_occurrences": 70250,
+          "unselected_65hz_in_ce": 0,
+          "unique_selected_65hz_windows": 728,
+          "source_receipt_sha256": "6cbbe87b5f7f8a56e4498951a106f83cfd9a71048c6ebe0c8108014c1f7e17ae",
+          "training_predictions_sha256": "89008d2dd83719b6bd823edf420b5be41a8ac1294917a155559df8c50fe5b051",
+          "checkpoint_sha256": "f7f933ee5cc7e1e7279911441992c075e6f206689189ccd44509d4e03e4ae9a8"
+        },
+        {
+          "seed": 2,
+          "steps": 5000,
+          "selected_65hz_occurrences": 174032,
+          "corrected_65hz_occurrences": 107577,
+          "retained_original_correct_65hz_occurrences": 66455,
+          "unselected_65hz_in_ce": 0,
+          "unique_selected_65hz_windows": 729,
+          "source_receipt_sha256": "a2977dd9e504766bedaadc0c2f2c976b0184d2a5909aad09b103cbb06d307b53",
+          "training_predictions_sha256": "5eb02c49e9b97ae471dc19c6dafa99919eab4855d493853a93f8d0a6521ae723",
+          "checkpoint_sha256": "fe43833a00e88469ec6ed28d3f44937f8dee9218da8291ce0fceb7455ff187e1"
+        }
+      ],
+      "target_arrays_loaded": false,
+      "total_selected_65hz_occurrences": 521989,
+      "total_corrected_65hz_occurrences": 292087,
+      "artifacts_sha256": {
+        "oracle_stepwise_mask_audit.csv": "625c234189d159f4a2139a84f9c496f1576bca8a73ba24cf776f1e7efcffe687",
+        "oracle_label_correction_audit.csv": "a4b579077a32857da2e9e71254c80c64a51ad4a1e4424e9429dca29faff2b22e"
+      }
+    },
+    "target_evaluations": 3,
+    "formal_updates": 15000,
+    "total_actual_updates": 15120,
+    "historical_A_B_retrained": false
+  }
+}

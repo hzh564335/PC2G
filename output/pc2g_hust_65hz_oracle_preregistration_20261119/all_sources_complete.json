@@ -1,0 +1,49 @@
+{
+  "complete": true,
+  "models": 3,
+  "checkpoint_step": 5000,
+  "total_source_updates": 15000,
+  "by_seed": {
+    "0": {
+      "seed": 0,
+      "steps": 5000,
+      "selected_65hz_occurrences": 173976,
+      "corrected_65hz_occurrences": 80779,
+      "retained_original_correct_65hz_occurrences": 93197,
+      "unselected_65hz_in_ce": 0,
+      "unique_selected_65hz_windows": 728,
+      "source_receipt_sha256": "a25aa85c78755ac1598df50aeac1526dac9c26e635a535325b8d6206fa546313",
+      "training_predictions_sha256": "d35534cdc80ab9c8564eb15919dbf50c3309a204ce54e999a853af37861aa5b3",
+      "checkpoint_sha256": "9d5ccb4830fda3e0b4c3af920fdb5fbd61bd13261a21f8ef1faba7c11732ae19"
+    },
+    "1": {
+      "seed": 1,
+      "steps": 5000,
+      "selected_65hz_occurrences": 173981,
+      "corrected_65hz_occurrences": 103731,
+      "retained_original_correct_65hz_occurrences": 70250,
+      "unselected_65hz_in_ce": 0,
+      "unique_selected_65hz_windows": 728,
+      "source_receipt_sha256": "6cbbe87b5f7f8a56e4498951a106f83cfd9a71048c6ebe0c8108014c1f7e17ae",
+      "training_predictions_sha256": "89008d2dd83719b6bd823edf420b5be41a8ac1294917a155559df8c50fe5b051",
+      "checkpoint_sha256": "f7f933ee5cc7e1e7279911441992c075e6f206689189ccd44509d4e03e4ae9a8"
+    },
+    "2": {
+      "seed": 2,
+      "steps": 5000,
+      "selected_65hz_occurrences": 174032,
+      "corrected_65hz_occurrences": 107577,
+      "retained_original_correct_65hz_occurrences": 66455,
+      "unselected_65hz_in_ce": 0,
+      "unique_selected_65hz_windows": 729,
+      "source_receipt_sha256": "a2977dd9e504766bedaadc0c2f2c976b0184d2a5909aad09b103cbb06d307b53",
+      "training_predictions_sha256": "5eb02c49e9b97ae471dc19c6dafa99919eab4855d493853a93f8d0a6521ae723",
+      "checkpoint_sha256": "fe43833a00e88469ec6ed28d3f44937f8dee9218da8291ce0fceb7455ff187e1"
+    }
+  },
+  "source_audit_artifacts_sha256": {
+    "oracle_stepwise_mask_audit.csv": "625c234189d159f4a2139a84f9c496f1576bca8a73ba24cf776f1e7efcffe687",
+    "oracle_label_correction_audit.csv": "a4b579077a32857da2e9e71254c80c64a51ad4a1e4424e9429dca29faff2b22e"
+  },
+  "archive_manifest_sha256": "9820ab9222cc4c0ad87d13ae0e301c90f92c82b2a22de4f6e67998372ba5af05"
+}

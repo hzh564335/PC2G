@@ -1,0 +1,26 @@
+{
+  "PU": {
+    "sampled_occurrences": 12800000,
+    "domain_batches": 200000,
+    "raw_accuracy_percent": 82.223546875,
+    "calibrated_accuracy_percent": 83.220015625,
+    "net_accuracy_change_pp": 0.9964687500000053,
+    "raw_selected_count_mean": 33.856935,
+    "calibrated_selected_count_mean": 33.625440000000005,
+    "added_mean": 2.39844,
+    "removed_mean": 2.629935,
+    "equal_count_but_class_composition_changed_batch_percent": 19.97
+  },
+  "DIRG": {
+    "sampled_occurrences": 12800000,
+    "domain_batches": 200000,
+    "raw_accuracy_percent": 57.3170859375,
+    "calibrated_accuracy_percent": 57.46121875,
+    "net_accuracy_change_pp": 0.144132812499997,
+    "raw_selected_count_mean": 35.602700000000006,
+    "calibrated_selected_count_mean": 35.59784499999999,
+    "added_mean": 1.1409500000000001,
+    "removed_mean": 1.145805,
+    "equal_count_but_class_composition_changed_batch_percent": 20.2395
+  }
+}

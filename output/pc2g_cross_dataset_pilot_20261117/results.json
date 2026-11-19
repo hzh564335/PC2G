@@ -1,0 +1,4374 @@
+{
+  "complete": true,
+  "scope": "pilot",
+  "rows": [
+    {
+      "id": "cwru-t3-L0-s0-raw-B0",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "raw",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.88,
+        "macro_f1": 0.8774038703493364,
+        "per_class_recall": [
+          0.7027027027027027,
+          0.8157894736842105,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.6677955389022827,
+        "confusion_matrix": [
+          [
+            26,
+            9,
+            2,
+            0
+          ],
+          [
+            0,
+            31,
+            0,
+            7
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "e1e3772d6a0cbab50ec22cfd784612725f59dc9facfbdeb69a17a4ff80401364",
+      "training_seconds": 379.3707069000229,
+      "evaluated_utc": "2026-11-17T08:57:32.191371+00:00",
+      "prediction_sha256": "20e5d03b8c49ec3fbba53030efd100e6c7a0e56f15081b917f7265e114ad9459"
+    },
+    {
+      "id": "cwru-t3-L0-s0-raw-B1",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "raw",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.88,
+        "macro_f1": 0.8774038703493364,
+        "per_class_recall": [
+          0.7027027027027027,
+          0.8157894736842105,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.6445714831352234,
+        "confusion_matrix": [
+          [
+            26,
+            9,
+            2,
+            0
+          ],
+          [
+            0,
+            31,
+            0,
+            7
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "3b34f54885c765747ea9f6f8a4833dbfde566b05d5dc7a5f9f2996b08ea0ae0a",
+      "training_seconds": 505.9565587999532,
+      "evaluated_utc": "2026-11-17T08:57:34.937136+00:00",
+      "prediction_sha256": "1267bfa1a3794e235932a413d36d5b64b0cdaa887fe4d1971d97b354a19b98f8"
+    },
+    {
+      "id": "cwru-t3-L0-s0-labels_only-B0",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "labels_only",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.8866666666666667,
+        "macro_f1": 0.8845729165808827,
+        "per_class_recall": [
+          0.7297297297297297,
+          0.8157894736842105,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.6599749326705933,
+        "confusion_matrix": [
+          [
+            27,
+            8,
+            2,
+            0
+          ],
+          [
+            0,
+            31,
+            0,
+            7
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "6cc061aa3f384954c445aca75e70703505c9214b8e570a6b43fb2772f711f0ef",
+      "training_seconds": 380.1505668000318,
+      "evaluated_utc": "2026-11-17T08:57:37.635998+00:00",
+      "prediction_sha256": "ca5c488ef69d96114781e42b5d03d4c8f4c75ed8364e43924937143c0d2a9512"
+    },
+    {
+      "id": "cwru-t3-L0-s0-labels_only-B1",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "labels_only",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.88,
+        "macro_f1": 0.8761116061283377,
+        "per_class_recall": [
+          0.6756756756756757,
+          0.8421052631578947,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.6957577466964722,
+        "confusion_matrix": [
+          [
+            25,
+            9,
+            3,
+            0
+          ],
+          [
+            0,
+            32,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "0c21827ecde162125c581950322cea48cb8573788c6b852c59f42de8c2344a1d",
+      "training_seconds": 506.850658499985,
+      "evaluated_utc": "2026-11-17T08:57:40.386188+00:00",
+      "prediction_sha256": "c967733ca4e001e5d129a32f5309d9d98f18c7edd9ba62e0db742e7cb66f07a9"
+    },
+    {
+      "id": "cwru-t3-L0-s0-selection_only-B0",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "selection_only",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.8933333333333333,
+        "macro_f1": 0.8905481241871409,
+        "per_class_recall": [
+          0.7297297297297297,
+          0.8421052631578947,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.7156171202659607,
+        "confusion_matrix": [
+          [
+            27,
+            8,
+            2,
+            0
+          ],
+          [
+            3,
+            32,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "375ae07359e2dfb735099d18eded7aed5970de923cbc2a226ad6ce166ca1c34b",
+      "training_seconds": 379.5444546000799,
+      "evaluated_utc": "2026-11-17T08:57:43.179477+00:00",
+      "prediction_sha256": "45c39d90c111c8b8247dfad7840d96b07cbaf381415a5b80ac6fb69e916da2a6"
+    },
+    {
+      "id": "cwru-t3-L0-s0-selection_only-B1",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "selection_only",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.8866666666666667,
+        "macro_f1": 0.8845729165808827,
+        "per_class_recall": [
+          0.7297297297297297,
+          0.8157894736842105,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.760331392288208,
+        "confusion_matrix": [
+          [
+            27,
+            8,
+            2,
+            0
+          ],
+          [
+            0,
+            31,
+            0,
+            7
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "3040e853b1488c0c560a2f0c3dcf7c9bf498c1c93e586041fed56befd2553e78",
+      "training_seconds": 505.7062233000761,
+      "evaluated_utc": "2026-11-17T08:57:46.044809+00:00",
+      "prediction_sha256": "4810f45310255778fe9dbadeb0e18dba079069c050af83f337c37444c6524d56"
+    },
+    {
+      "id": "cwru-t3-L0-s0-full-B0",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "full",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.8866666666666667,
+        "macro_f1": 0.8845729165808827,
+        "per_class_recall": [
+          0.7297297297297297,
+          0.8157894736842105,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.8140469193458557,
+        "confusion_matrix": [
+          [
+            27,
+            8,
+            2,
+            0
+          ],
+          [
+            0,
+            31,
+            0,
+            7
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "48f32e195e9fd336ca8b8dc307b9d604df51238d03ff18c208ebda06782355f7",
+      "training_seconds": 378.73391509999055,
+      "evaluated_utc": "2026-11-17T08:57:48.800568+00:00",
+      "prediction_sha256": "c2fd13a36d7ac848e47a05e7f9b84e2ff2f0ac1ad62e3a5c9b03bef157111469"
+    },
+    {
+      "id": "cwru-t3-L0-s0-full-B1",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "full",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.9,
+        "macro_f1": 0.8977872133598177,
+        "per_class_recall": [
+          0.7297297297297297,
+          0.868421052631579,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.7326266765594482,
+        "confusion_matrix": [
+          [
+            27,
+            8,
+            2,
+            0
+          ],
+          [
+            0,
+            33,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "6b39cd03012c8df090b78b4ce18446ad8d8c80a206606dee931c65653de7862b",
+      "training_seconds": 504.96801249997225,
+      "evaluated_utc": "2026-11-17T08:57:51.500556+00:00",
+      "prediction_sha256": "46f73380701661b65ca4e6400c5f25f35e1439dbe09d27055545cf375dfa2088"
+    },
+    {
+      "id": "cwru-t3-L0-s1-raw-B0",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "raw",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.9,
+        "macro_f1": 0.8972523608599559,
+        "per_class_recall": [
+          0.6756756756756757,
+          0.9210526315789473,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.7760910987854004,
+        "confusion_matrix": [
+          [
+            25,
+            11,
+            0,
+            1
+          ],
+          [
+            1,
+            35,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "4bb79cee06ee6c4cc9a826933238d19f8e7c64e6a79c7ba36530affe11cf61de",
+      "training_seconds": 378.3326455000788,
+      "evaluated_utc": "2026-11-17T08:57:54.217826+00:00",
+      "prediction_sha256": "4f9023a1e8b7f428a06f6551845fc0ea55e243c938bfee82edc9540bc75a4858"
+    },
+    {
+      "id": "cwru-t3-L0-s1-raw-B1",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "raw",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.92,
+        "macro_f1": 0.9175219941348973,
+        "per_class_recall": [
+          0.6756756756756757,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.6160217523574829,
+        "confusion_matrix": [
+          [
+            25,
+            12,
+            0,
+            0
+          ],
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "394c59fd8b9d8ed584c96550c3c2fb75c603ae28a3be4d6c0101f5cb9b44ffa1",
+      "training_seconds": 505.25537519995123,
+      "evaluated_utc": "2026-11-17T08:57:56.893456+00:00",
+      "prediction_sha256": "c0ac8743f3a3335b78cfddb0f7f8c133b4d30e96e285b8f19f37d4ab2e63bbe2"
+    },
+    {
+      "id": "cwru-t3-L0-s1-labels_only-B0",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "labels_only",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.92,
+        "macro_f1": 0.9174387254901961,
+        "per_class_recall": [
+          0.7027027027027027,
+          0.9736842105263158,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.6744003891944885,
+        "confusion_matrix": [
+          [
+            26,
+            10,
+            1,
+            0
+          ],
+          [
+            1,
+            37,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "f39a653802f2e346e541cd010ac89c351a566d8c9dfd138d8218408da6faf88d",
+      "training_seconds": 379.0658445999725,
+      "evaluated_utc": "2026-11-17T08:57:59.668432+00:00",
+      "prediction_sha256": "fca0255b565161a7655c914a77c4ebc5dd19fd4c49c51ecde41d730be0f90d5e"
+    },
+    {
+      "id": "cwru-t3-L0-s1-labels_only-B1",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "labels_only",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.92,
+        "macro_f1": 0.9166703744901743,
+        "per_class_recall": [
+          0.6756756756756757,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.6732446551322937,
+        "confusion_matrix": [
+          [
+            25,
+            11,
+            1,
+            0
+          ],
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "a6e02b67c16a04befa380453af2b6317072c3e7177e5097fa1c89f00ec39f075",
+      "training_seconds": 505.6215669999365,
+      "evaluated_utc": "2026-11-17T08:58:02.352725+00:00",
+      "prediction_sha256": "203ff257ed8060640e4bcc0ef4dedb36a5a168f5415d95c5534d3c5650ea24b5"
+    },
+    {
+      "id": "cwru-t3-L0-s1-selection_only-B0",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "selection_only",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.9133333333333333,
+        "macro_f1": 0.9093836491377475,
+        "per_class_recall": [
+          0.6486486486486487,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.7960827350616455,
+        "confusion_matrix": [
+          [
+            24,
+            12,
+            0,
+            1
+          ],
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "e45d54fa0c56b4a2183aa23613ca0c8547be98977654fd3683014481d4e17056",
+      "training_seconds": 378.5950427999487,
+      "evaluated_utc": "2026-11-17T08:58:05.033426+00:00",
+      "prediction_sha256": "588f17f86c40227dedbd74d7b0503b0cbfcd87b5e0685e5defcff116f625460a"
+    },
+    {
+      "id": "cwru-t3-L0-s1-selection_only-B1",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "selection_only",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.9066666666666666,
+        "macro_f1": 0.900995670995671,
+        "per_class_recall": [
+          0.6216216216216216,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.7127648591995239,
+        "confusion_matrix": [
+          [
+            23,
+            12,
+            1,
+            1
+          ],
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "501a53abfb4dbf9a3bdef144fa3c428c7bc798df32ab5bebbc9887257f634ad5",
+      "training_seconds": 505.5306322000688,
+      "evaluated_utc": "2026-11-17T08:58:07.712418+00:00",
+      "prediction_sha256": "0c132e599ddbd9d481fbd182daed6862c96ef43d18d74210ddacfd92abd22adc"
+    },
+    {
+      "id": "cwru-t3-L0-s1-full-B0",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "full",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.9333333333333333,
+        "macro_f1": 0.9318677325581395,
+        "per_class_recall": [
+          0.7297297297297297,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.6166916489601135,
+        "confusion_matrix": [
+          [
+            27,
+            10,
+            0,
+            0
+          ],
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "d22e4de693ddccab4e32da1e200878198eff624ca3123718885f11f0e6732454",
+      "training_seconds": 378.6964231999591,
+      "evaluated_utc": "2026-11-17T08:58:10.415887+00:00",
+      "prediction_sha256": "19bda544b8f517886960da10bb30b8e8da89cdf6cb336b108b59d8aba375b5e4"
+    },
+    {
+      "id": "cwru-t3-L0-s1-full-B1",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "full",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.9133333333333333,
+        "macro_f1": 0.9093836491377475,
+        "per_class_recall": [
+          0.6486486486486487,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.6838304400444031,
+        "confusion_matrix": [
+          [
+            24,
+            12,
+            0,
+            1
+          ],
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "2f01e4a93ec77a6223edd4c7e2400791268ee688402798cba924bc9818a71b19",
+      "training_seconds": 505.54190680000465,
+      "evaluated_utc": "2026-11-17T08:58:13.053004+00:00",
+      "prediction_sha256": "4cd3fb0f73c0cba7ebaa197ed1b177b44950424147b81b19a143aba92e2e8d6a"
+    },
+    {
+      "id": "cwru-t3-L0-s2-raw-B0",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "raw",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.9533333333333334,
+        "macro_f1": 0.9523411608413428,
+        "per_class_recall": [
+          0.8108108108108109,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.3590514659881592,
+        "confusion_matrix": [
+          [
+            30,
+            6,
+            0,
+            1
+          ],
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "36bf4bda8b2b97de0f1c7e2cca1869f3ec799b1a789f1b16e29d5487dba29762",
+      "training_seconds": 378.77640189998783,
+      "evaluated_utc": "2026-11-17T08:58:15.768876+00:00",
+      "prediction_sha256": "337aa05b34660a10bc094ca464254f4dceaa05ee39ac31653a1369f645cc6c16"
+    },
+    {
+      "id": "cwru-t3-L0-s2-raw-B1",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "raw",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.9466666666666667,
+        "macro_f1": 0.9452792990142388,
+        "per_class_recall": [
+          0.7837837837837838,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.36868271231651306,
+        "confusion_matrix": [
+          [
+            29,
+            7,
+            1,
+            0
+          ],
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "a07bff83743c052393cb91e27710a547ed9c18062875906f0b1f25cc18531dcb",
+      "training_seconds": 507.2602948999265,
+      "evaluated_utc": "2026-11-17T08:58:18.474215+00:00",
+      "prediction_sha256": "809fdbbe06e3a71d77c3510f3f8992a2761fdf70ca905c10d2cafa739e880737"
+    },
+    {
+      "id": "cwru-t3-L0-s2-labels_only-B0",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "labels_only",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.96,
+        "macro_f1": 0.9591757443718228,
+        "per_class_recall": [
+          0.8378378378378378,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.253936767578125,
+        "confusion_matrix": [
+          [
+            31,
+            5,
+            1,
+            0
+          ],
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "4ce2daaf17872f02de8f82840c2b8b65b3e5a43bae87996d5bba2f5f765760d2",
+      "training_seconds": 380.6242618999677,
+      "evaluated_utc": "2026-11-17T08:58:21.134661+00:00",
+      "prediction_sha256": "cbf29718d47d2e7bb8bbc90f08f32501d33eb8f49685778e1750015503096e0e"
+    },
+    {
+      "id": "cwru-t3-L0-s2-labels_only-B1",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "labels_only",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.96,
+        "macro_f1": 0.9592623244584029,
+        "per_class_recall": [
+          0.8378378378378378,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.2751412093639374,
+        "confusion_matrix": [
+          [
+            31,
+            5,
+            0,
+            1
+          ],
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "f45b76b1632f1bf50f2d347fcd3e46db02514457bc93cc4b7647405a81d8ad97",
+      "training_seconds": 507.6514604999684,
+      "evaluated_utc": "2026-11-17T08:58:23.795492+00:00",
+      "prediction_sha256": "5a90051cbd81678828aa07f00954ed4e44cec0bf008a41493baa7b2d53cf8367"
+    },
+    {
+      "id": "cwru-t3-L0-s2-selection_only-B0",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "selection_only",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.96,
+        "macro_f1": 0.9591757443718228,
+        "per_class_recall": [
+          0.8378378378378378,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.25518426299095154,
+        "confusion_matrix": [
+          [
+            31,
+            5,
+            1,
+            0
+          ],
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "f9c70792bbc9e823f635ea9f69e55544484119bce3b8794a35be311c94843ed0",
+      "training_seconds": 378.7742462999886,
+      "evaluated_utc": "2026-11-17T08:58:26.508783+00:00",
+      "prediction_sha256": "db0bd59ffb272e743cc2b5118c94c4b36a4fd051fca4bfee78e0f1ae540a1ffa"
+    },
+    {
+      "id": "cwru-t3-L0-s2-selection_only-B1",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "selection_only",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.9533333333333334,
+        "macro_f1": 0.9522545807547628,
+        "per_class_recall": [
+          0.8108108108108109,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.3205183744430542,
+        "confusion_matrix": [
+          [
+            30,
+            6,
+            1,
+            0
+          ],
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "0077f714ef39404fb12b937f820a7af88b11e4e70aa131de99787dae4a56ddc9",
+      "training_seconds": 508.76014200004283,
+      "evaluated_utc": "2026-11-17T08:58:29.202888+00:00",
+      "prediction_sha256": "8d7a872acd93c5b66f317096288b53ed0e0e44c9fef131032b96b74c6d140e32"
+    },
+    {
+      "id": "cwru-t3-L0-s2-full-B0",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "full",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.9533333333333334,
+        "macro_f1": 0.9522545807547628,
+        "per_class_recall": [
+          0.8108108108108109,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.3102791905403137,
+        "confusion_matrix": [
+          [
+            30,
+            6,
+            1,
+            0
+          ],
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "d48557fdafeb96e31e8129b79f210affa2014d895a82ddeaa27b5dad985c1546",
+      "training_seconds": 379.0805096999975,
+      "evaluated_utc": "2026-11-17T08:58:31.923451+00:00",
+      "prediction_sha256": "b6004a40b72671419501a20e93ff6b40345aec530255b0448f7fd535ffef6bb8"
+    },
+    {
+      "id": "cwru-t3-L0-s2-full-B1",
+      "dataset": "cwru",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "full",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.96,
+        "macro_f1": 0.9591757443718228,
+        "per_class_recall": [
+          0.8378378378378378,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_entropy": 0.2716255784034729,
+        "confusion_matrix": [
+          [
+            31,
+            5,
+            1,
+            0
+          ],
+          [
+            0,
+            38,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "e25bd64f4afd69c57e12014c345bfb9762580a0c01d11eb50c52ce532066c1d8",
+      "training_seconds": 505.4963794000214,
+      "evaluated_utc": "2026-11-17T08:58:34.614220+00:00",
+      "prediction_sha256": "4e95b4535f40e6be4b8b5a6cdfa2cfbe753df0fe35185f8dd05541ea996c31b8"
+    },
+    {
+      "id": "hust-t3-L0-s0-raw-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "raw",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.1522633744855967,
+        "macro_f1": 0.08867691220632397,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.37037037037037035
+        ],
+        "cross_entropy": 16.063556671142578,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            81,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            62,
+            0,
+            19,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            18,
+            0,
+            33,
+            30
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "b3f0b47abb5a3dc834a613a8d6ba388255e2b2453aa9ef8176802e5194f7cdc1",
+      "training_seconds": 394.48246049997397,
+      "evaluated_utc": "2026-11-17T08:58:37.802643+00:00",
+      "prediction_sha256": "f4d425d813d76d1007ef5837b43777ce71008ae0ab183a6981be08536e324593"
+    },
+    {
+      "id": "hust-t3-L0-s0-raw-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "raw",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.149519890260631,
+        "macro_f1": 0.08593076138947699,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.345679012345679
+        ],
+        "cross_entropy": 16.4748477935791,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            24,
+            57,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            57,
+            0,
+            24,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            23,
+            0,
+            28,
+            28
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "6e80e1af62ef7b81c39ec0acc30df02e5aca053b7b3ecfac0cf1addafba441d2",
+      "training_seconds": 523.6918469999218,
+      "evaluated_utc": "2026-11-17T08:58:41.018875+00:00",
+      "prediction_sha256": "668ccb0279ee129a95b7b08ae5bb6830cddf4e503b21665535ffbb22bf5f3231"
+    },
+    {
+      "id": "hust-t3-L0-s0-labels_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "labels_only",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.1522633744855967,
+        "macro_f1": 0.08863148863148863,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.37037037037037035
+        ],
+        "cross_entropy": 16.694869995117188,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            81,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            63,
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            17,
+            0,
+            34,
+            30
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "0846c89d4b50ea5b9a1a21e9b4c34a2490334be3934953c6f7de86e316b7c50c",
+      "training_seconds": 394.45709040004294,
+      "evaluated_utc": "2026-11-17T08:58:44.220124+00:00",
+      "prediction_sha256": "2ffd025a7753587d99545476bc0c36984a04cc8531ba4b4d28f2ddb664f44217"
+    },
+    {
+      "id": "hust-t3-L0-s0-labels_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "labels_only",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.14814814814814814,
+        "macro_f1": 0.08444801141430355,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.3333333333333333
+        ],
+        "cross_entropy": 16.69588279724121,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            81,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            56,
+            0,
+            25,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            19,
+            0,
+            33,
+            27
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "552a65e3d441962f9b1399e93fa81e5eebe0c9b818a0292c17f359755e469675",
+      "training_seconds": 522.8084764999803,
+      "evaluated_utc": "2026-11-17T08:58:47.422800+00:00",
+      "prediction_sha256": "d7d6798122d3546b75256a4b24824bb43bb61b505fb0e8810d71e5516e62681a"
+    },
+    {
+      "id": "hust-t3-L0-s0-selection_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "selection_only",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.15089163237311384,
+        "macro_f1": 0.0886861930340191,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.35802469135802467
+        ],
+        "cross_entropy": 17.4102783203125,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            5,
+            76,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            31,
+            0,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            11,
+            0,
+            39,
+            29
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "ac1c11a8f4178b731c0bc66f9b097b12c26ff979e31e18c9431caa4bfbc39537",
+      "training_seconds": 393.89366780000273,
+      "evaluated_utc": "2026-11-17T08:58:50.613644+00:00",
+      "prediction_sha256": "c45235c57f8cc6c70355f93a896fdcae3cdc816778cf1a3a459ecb65b67aa787"
+    },
+    {
+      "id": "hust-t3-L0-s0-selection_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "selection_only",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.1467764060356653,
+        "macro_f1": 0.08399792315680167,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.32098765432098764
+        ],
+        "cross_entropy": 15.246742248535156,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            81,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            34,
+            0,
+            47,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            80,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            14,
+            0,
+            39,
+            26
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "d2d3522f397b08f36843b3cea9c8c2fafddbcd4de58796dd207de751fcd52f40",
+      "training_seconds": 520.8612591999117,
+      "evaluated_utc": "2026-11-17T08:58:53.819801+00:00",
+      "prediction_sha256": "fe16a616105244c01b8a957f564c28d4f44223553d60fba7b96c83332eb7ae7c"
+    },
+    {
+      "id": "hust-t3-L0-s0-full-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "full",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.15363511659807957,
+        "macro_f1": 0.09259601940949092,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.38271604938271603
+        ],
+        "cross_entropy": 17.15057373046875,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            81,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            0,
+            69,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            30,
+            31
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "0fc2b856f6e346001905983be0bd75eedeb2ddbab71dd894517a288e7a798043",
+      "training_seconds": 393.8719005000312,
+      "evaluated_utc": "2026-11-17T08:58:57.039400+00:00",
+      "prediction_sha256": "775dedfd5f6885ebd60e7622c34bfc66bdb39017d018e2e4bf006a34802ba2db"
+    },
+    {
+      "id": "hust-t3-L0-s0-full-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "full",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.15363511659807957,
+        "macro_f1": 0.09130926101124776,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.38271604938271603
+        ],
+        "cross_entropy": 16.06879425048828,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            7,
+            74,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            38,
+            0,
+            43,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            80,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            46,
+            31
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "f2c0b267782f40b82e117db69ac3a2bd41ef0a1efbb7b6e22124414c94bc8703",
+      "training_seconds": 520.9261865000008,
+      "evaluated_utc": "2026-11-17T08:59:00.285882+00:00",
+      "prediction_sha256": "0465188dba5ad70a0783219294fb4cbf717f09062935db00a75bc47771655550"
+    },
+    {
+      "id": "hust-t3-L0-s1-raw-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "raw",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.11385459533607682,
+        "macro_f1": 0.033601557907113465,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.024691358024691357,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cross_entropy": 16.6489200592041,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            13,
+            0,
+            0,
+            68
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            79,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            62,
+            0,
+            19,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            30,
+            0,
+            0,
+            4,
+            0,
+            37,
+            1,
+            0,
+            9
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            56,
+            6,
+            17,
+            0
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "a4944f97fd93629cb8525834c5a1c4a470229f803be07416f6c50eea807b4c3b",
+      "training_seconds": 394.53071660001297,
+      "evaluated_utc": "2026-11-17T08:59:03.507273+00:00",
+      "prediction_sha256": "d614e22fe35633a73e2bcda00720ad26fe2035418924630d97ee8d68a0c833d8"
+    },
+    {
+      "id": "hust-t3-L0-s1-raw-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "raw",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.1111111111111111,
+        "macro_f1": 0.028985507246376812,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cross_entropy": 18.177637100219727,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            11,
+            24,
+            0,
+            1,
+            45
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            69,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            66,
+            0,
+            0,
+            5,
+            0,
+            7,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            1,
+            59,
+            6,
+            13,
+            0
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "b755cb5aa2ee784cdffdd34f390ae210903b711be2ad3e19045e72b4a02a7761",
+      "training_seconds": 524.6916223000735,
+      "evaluated_utc": "2026-11-17T08:59:06.724404+00:00",
+      "prediction_sha256": "7ef0c9634836f8686362b0db179b5b382c6b48fb6b2c89e076f15655f58082ec"
+    },
+    {
+      "id": "hust-t3-L0-s1-labels_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "labels_only",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.11522633744855967,
+        "macro_f1": 0.036098394677409516,
+        "per_class_recall": [
+          1.0,
+          0.037037037037037035,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cross_entropy": 17.277318954467773,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            78,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            81
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            71,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            0,
+            0,
+            1,
+            64,
+            5,
+            8,
+            0
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "bd84ce06e0b06c3dd92bf41f1f11ea0529cd4a8d602a6a89e4511e3e70d0d22e",
+      "training_seconds": 394.834296099958,
+      "evaluated_utc": "2026-11-17T08:59:09.933166+00:00",
+      "prediction_sha256": "84deb80f9decb5bd5e6908db7625e423068b7b41d84ad237bb8c3a58440b0636"
+    },
+    {
+      "id": "hust-t3-L0-s1-labels_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "labels_only",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.1111111111111111,
+        "macro_f1": 0.02903225806451613,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cross_entropy": 15.970160484313965,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            81
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            67,
+            0,
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            67,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            14
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            1,
+            65,
+            5,
+            8,
+            0
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "040b644b4cf24af6a9e8ce5ab26f99a6cede2dd6a2754429128b8e1f85a51dac",
+      "training_seconds": 523.2964800999034,
+      "evaluated_utc": "2026-11-17T08:59:13.228017+00:00",
+      "prediction_sha256": "de4cd27629931ec25bdf11c5904a2e158b79a309bf964274b3cca57ab41232a9"
+    },
+    {
+      "id": "hust-t3-L0-s1-selection_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "selection_only",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.13168724279835392,
+        "macro_f1": 0.06656333419443726,
+        "per_class_recall": [
+          1.0,
+          0.18518518518518517,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cross_entropy": 16.5002498626709,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            66,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            15,
+            0,
+            0,
+            66
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            70,
+            0,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            0,
+            0,
+            0,
+            0,
+            37,
+            0,
+            0,
+            32
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            1,
+            57,
+            7,
+            14,
+            0
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "3621a9b3df2f4588a0396b66f588838f18289398bd97c3466e2166f34b1b8242",
+      "training_seconds": 395.18587070005015,
+      "evaluated_utc": "2026-11-17T08:59:16.417744+00:00",
+      "prediction_sha256": "7c411debaaf15485a3a725349fe158ef2932023e8f79d3ac430ab1e54e396f21"
+    },
+    {
+      "id": "hust-t3-L0-s1-selection_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "selection_only",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.11248285322359397,
+        "macro_f1": 0.030341295197525226,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.012345679012345678,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cross_entropy": 17.257017135620117,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            80
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            80,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            75,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            66,
+            0,
+            0,
+            1,
+            0,
+            4,
+            0,
+            0,
+            10
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            53,
+            6,
+            20,
+            0
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "b18925be7e29ba36316811c16dda18ad5bfc4fb2e2b2656e51c928bc93baf52a",
+      "training_seconds": 521.7255376999965,
+      "evaluated_utc": "2026-11-17T08:59:19.609419+00:00",
+      "prediction_sha256": "37589ea2f19635b87b66fb7a74a40811a6adfaef2614052518fb776b589f6193"
+    },
+    {
+      "id": "hust-t3-L0-s1-full-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "full",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.12757201646090535,
+        "macro_f1": 0.05585855349405285,
+        "per_class_recall": [
+          1.0,
+          0.12345679012345678,
+          0.0,
+          0.0,
+          0.0,
+          0.024691358024691357,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cross_entropy": 15.659364700317383,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            71,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            24,
+            0,
+            2,
+            54
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            79,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            75,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            61,
+            0,
+            0,
+            1,
+            0,
+            13,
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            61,
+            6,
+            12,
+            0
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "8265647f9b1704b8ade6ca57d2ecd6b140dca43296c2d8afeb2c294c60d020c3",
+      "training_seconds": 394.7191849000519,
+      "evaluated_utc": "2026-11-17T08:59:22.784536+00:00",
+      "prediction_sha256": "2b4d029212ad7fc0e9608851820011604c697c643984ed4369372008690c920e"
+    },
+    {
+      "id": "hust-t3-L0-s1-full-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "full",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.11934156378600823,
+        "macro_f1": 0.04406777013115442,
+        "per_class_recall": [
+          1.0,
+          0.06172839506172839,
+          0.0,
+          0.0,
+          0.0,
+          0.012345679012345678,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cross_entropy": 16.619102478027344,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            76,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            81
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            80,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            61,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            60,
+            0,
+            0,
+            1,
+            0,
+            7,
+            0,
+            0,
+            13
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            1,
+            60,
+            6,
+            12,
+            0
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "3d311266703a6476a6b746e5c63ccbf814a63f4d8b17b15c7fa7ab62041d7d9a",
+      "training_seconds": 522.7626848999644,
+      "evaluated_utc": "2026-11-17T08:59:25.964722+00:00",
+      "prediction_sha256": "f2a570d2dae533c68804e3ccced1090b39b5dad02db1033a82201471f3c0fb81"
+    },
+    {
+      "id": "hust-t3-L0-s2-raw-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "raw",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.1111111111111111,
+        "macro_f1": 0.028124999999999997,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cross_entropy": 18.043134689331055,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4,
+            64,
+            0,
+            0,
+            13
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            73,
+            0,
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            73,
+            6,
+            0,
+            0
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "92cb5a4f4a4e97aa20dfe8bef6ce1a6b4b9028326635c6bf96e1dda8afd16bc5",
+      "training_seconds": 395.3845621999353,
+      "evaluated_utc": "2026-11-17T08:59:29.186172+00:00",
+      "prediction_sha256": "acc76345f14b68502febd55c99f4cc8a6f4e6b054d43a5a7c2030828720abda8"
+    },
+    {
+      "id": "hust-t3-L0-s2-raw-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "raw",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.1111111111111111,
+        "macro_f1": 0.028169014084507043,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cross_entropy": 18.06854248046875,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            78,
+            0,
+            0,
+            1
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            73,
+            0,
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            80,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            73,
+            6,
+            0,
+            0
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "d3612d444787551127323d4e8c50b9370a6732357c2a4204228e841e2700304a",
+      "training_seconds": 521.6433871999616,
+      "evaluated_utc": "2026-11-17T08:59:32.419291+00:00",
+      "prediction_sha256": "cde00d975c7a07661c7f13e7b876772f693b2257d7bb4e2a8611a1a5d9a7dc21"
+    },
+    {
+      "id": "hust-t3-L0-s2-labels_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "labels_only",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.11248285322359397,
+        "macro_f1": 0.030705982007243837,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.012345679012345678,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cross_entropy": 17.75145149230957,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            54,
+            13,
+            0,
+            0,
+            13
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            67,
+            0,
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            73,
+            6,
+            0,
+            0
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "2e6635a768fa0792ae9cb2a9c7f6fe1b7f8a06d5992baba04ded19b185cc28ac",
+      "training_seconds": 395.3664415999083,
+      "evaluated_utc": "2026-11-17T08:59:35.605523+00:00",
+      "prediction_sha256": "79e0d0eb1fd380b99f4c18272868ffa8c3798ed60b0b619baeed100755def47a"
+    },
+    {
+      "id": "hust-t3-L0-s2-labels_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "labels_only",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.11385459533607682,
+        "macro_f1": 0.03324825040743937,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.024691358024691357,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cross_entropy": 15.928518295288086,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            17,
+            62,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            42,
+            0,
+            39,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            80,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            71,
+            6,
+            2,
+            0
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "738c23a0754e4e6cd2f5b16960a63f6b774d57ea91e01b72c2be7cafc2e8fd0f",
+      "training_seconds": 521.757906200015,
+      "evaluated_utc": "2026-11-17T08:59:38.804340+00:00",
+      "prediction_sha256": "6ac91e3e9a1211eda183ce7ddebf710a7e56dd016b7643280fa4ac67f01f5e10"
+    },
+    {
+      "id": "hust-t3-L0-s2-selection_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "selection_only",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.1111111111111111,
+        "macro_f1": 0.02926829268292683,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cross_entropy": 16.666656494140625,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            76,
+            0,
+            0,
+            5
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            31,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            79,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            73,
+            6,
+            0,
+            0
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "bcee310fb91f249aaab6b8b25b0d94321e7e5b84cae1dbc962c44600eb26fed9",
+      "training_seconds": 394.939867899986,
+      "evaluated_utc": "2026-11-17T08:59:41.995214+00:00",
+      "prediction_sha256": "f923d8112fd399825f5d382ce76297e627ae9cccff0514556e70844a756bcf16"
+    },
+    {
+      "id": "hust-t3-L0-s2-selection_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "selection_only",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.1111111111111111,
+        "macro_f1": 0.03061224489795918,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cross_entropy": 14.851871490478516,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            42,
+            32,
+            0,
+            0,
+            7
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            39,
+            0,
+            42,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            63,
+            0,
+            0,
+            17,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            73,
+            6,
+            0,
+            0
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "a18dab67e5655a734c0bf2128d350af2b7793c9b93ed37d2b1e3f88c07cf678d",
+      "training_seconds": 521.3764584999299,
+      "evaluated_utc": "2026-11-17T08:59:45.147059+00:00",
+      "prediction_sha256": "4c9f1abc0dba8f93d14f139ede54ed0a35bc0abc98ad75aea8e85b37afe80724"
+    },
+    {
+      "id": "hust-t3-L0-s2-full-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "full",
+      "B_weight": 0.0,
+      "metrics": {
+        "accuracy": 0.1111111111111111,
+        "macro_f1": 0.029654036243822075,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cross_entropy": 16.15098762512207,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4,
+            11,
+            0,
+            0,
+            66
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            40,
+            0,
+            41,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            73,
+            6,
+            0,
+            0
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "9709ffa8b9ef176a682bf0de467df1517ec0c14d04e7d3679a7218383ccf4cf3",
+      "training_seconds": 395.4685262000421,
+      "evaluated_utc": "2026-11-17T08:59:48.373752+00:00",
+      "prediction_sha256": "7fb293f221ffc941d712125791ade0f8b9c17bbfe0f6c695d3a7224ff05de713"
+    },
+    {
+      "id": "hust-t3-L0-s2-full-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "full",
+      "B_weight": 0.1,
+      "metrics": {
+        "accuracy": 0.1111111111111111,
+        "macro_f1": 0.029459901800327332,
+        "per_class_recall": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cross_entropy": 15.953736305236816,
+        "confusion_matrix": [
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            80,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            3,
+            4,
+            0,
+            0,
+            74
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            46,
+            0,
+            35,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            73,
+            6,
+            0,
+            0
+          ]
+        ]
+      },
+      "checkpoint_step": 5000,
+      "checkpoint_sha256": "a18911cb562e0c42918716f750689565e89dc2e25ea97e395640d6c524cee1cd",
+      "training_seconds": 522.4193858000217,
+      "evaluated_utc": "2026-11-17T08:59:51.541718+00:00",
+      "prediction_sha256": "34028f73ce344219c4da394e5f6a201c16604e4af737e9f79fae1fef41c21d51"
+    }
+  ]
+}

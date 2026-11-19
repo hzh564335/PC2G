@@ -1,0 +1,20 @@
+{
+  "complete": true,
+  "checks": [
+    {
+      "dataset": "cwru",
+      "seed": 0,
+      "paired_models": 8,
+      "batch_and_aux_trajectory_equal": true,
+      "auxiliary_and_queue_endpoints_equal": true
+    },
+    {
+      "dataset": "hust",
+      "seed": 0,
+      "paired_models": 8,
+      "batch_and_aux_trajectory_equal": true,
+      "auxiliary_and_queue_endpoints_equal": true
+    }
+  ],
+  "target_evaluated": false
+}

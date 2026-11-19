@@ -1,0 +1,64 @@
+{
+  "checked_utc": "2026-11-17T09:00:38.724163+00:00",
+  "complete": true,
+  "source_models_verified": 48,
+  "expected_source_models": 48,
+  "phase": "results",
+  "target_predictions_verified": 48,
+  "groups": [
+    {
+      "dataset": "cwru",
+      "seed": 0,
+      "completed_models": 8,
+      "masks_labels_and_indices_verified": true,
+      "initial_and_final_rng_verified": true,
+      "calibration_max_abs_cpu_error": 8.954215591217007e-07
+    },
+    {
+      "dataset": "cwru",
+      "seed": 1,
+      "completed_models": 8,
+      "masks_labels_and_indices_verified": true,
+      "initial_and_final_rng_verified": true,
+      "calibration_max_abs_cpu_error": 8.603438903520555e-07
+    },
+    {
+      "dataset": "cwru",
+      "seed": 2,
+      "completed_models": 8,
+      "masks_labels_and_indices_verified": true,
+      "initial_and_final_rng_verified": true,
+      "calibration_max_abs_cpu_error": 7.791021783276619e-07
+    },
+    {
+      "dataset": "hust",
+      "seed": 0,
+      "completed_models": 8,
+      "masks_labels_and_indices_verified": true,
+      "initial_and_final_rng_verified": true,
+      "calibration_max_abs_cpu_error": 1.2463581064992013e-06
+    },
+    {
+      "dataset": "hust",
+      "seed": 1,
+      "completed_models": 8,
+      "masks_labels_and_indices_verified": true,
+      "initial_and_final_rng_verified": true,
+      "calibration_max_abs_cpu_error": 1.2690681359117661e-06
+    },
+    {
+      "dataset": "hust",
+      "seed": 2,
+      "completed_models": 8,
+      "masks_labels_and_indices_verified": true,
+      "initial_and_final_rng_verified": true,
+      "calibration_max_abs_cpu_error": 1.2113027132443221e-06
+    }
+  ],
+  "checked_on_cpu": true,
+  "trained_or_inferred_models": 0,
+  "limitations": [
+    "Data-access declarations are checked against the frozen runner and actual manifest groups; this audit does not add OS-level file interception.",
+    "Low-entropy checks allow 2e-6 CPU/GPU entropy differences at ordering boundaries."
+  ]
+}

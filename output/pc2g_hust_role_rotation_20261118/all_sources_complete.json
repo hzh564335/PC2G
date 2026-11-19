@@ -1,0 +1,101 @@
+{
+  "complete": true,
+  "models": 48,
+  "total_with_baseline": 72,
+  "baseline_models": 24,
+  "actual_ce_rows": 240000,
+  "checks": [
+    {
+      "labeled": 0,
+      "labeled_hz": 20,
+      "seed": 0,
+      "runs": 8,
+      "physical_batch_sha256": "58677896ee97466f742bb195754b27b059c3788dfa249fd0ece615b37d9b8784",
+      "initialization_paired_across_roles": true,
+      "physical_samples_paired_across_roles": true,
+      "auxiliary_trajectories_paired_within_role": true
+    },
+    {
+      "labeled": 0,
+      "labeled_hz": 20,
+      "seed": 1,
+      "runs": 8,
+      "physical_batch_sha256": "04bb05bc346b5dac73e68aac8a4a7f340a79000643cd8844114a84b43fdaf4c5",
+      "initialization_paired_across_roles": true,
+      "physical_samples_paired_across_roles": true,
+      "auxiliary_trajectories_paired_within_role": true
+    },
+    {
+      "labeled": 0,
+      "labeled_hz": 20,
+      "seed": 2,
+      "runs": 8,
+      "physical_batch_sha256": "f2505e666c3503f288181cd1305851be6bdfacc4df589ad8af2a7ed21fc7f36a",
+      "initialization_paired_across_roles": true,
+      "physical_samples_paired_across_roles": true,
+      "auxiliary_trajectories_paired_within_role": true
+    },
+    {
+      "labeled": 1,
+      "labeled_hz": 35,
+      "seed": 0,
+      "runs": 8,
+      "physical_batch_sha256": "58677896ee97466f742bb195754b27b059c3788dfa249fd0ece615b37d9b8784",
+      "initialization_paired_across_roles": true,
+      "physical_samples_paired_across_roles": true,
+      "auxiliary_trajectories_paired_within_role": true
+    },
+    {
+      "labeled": 1,
+      "labeled_hz": 35,
+      "seed": 1,
+      "runs": 8,
+      "physical_batch_sha256": "04bb05bc346b5dac73e68aac8a4a7f340a79000643cd8844114a84b43fdaf4c5",
+      "initialization_paired_across_roles": true,
+      "physical_samples_paired_across_roles": true,
+      "auxiliary_trajectories_paired_within_role": true
+    },
+    {
+      "labeled": 1,
+      "labeled_hz": 35,
+      "seed": 2,
+      "runs": 8,
+      "physical_batch_sha256": "f2505e666c3503f288181cd1305851be6bdfacc4df589ad8af2a7ed21fc7f36a",
+      "initialization_paired_across_roles": true,
+      "physical_samples_paired_across_roles": true,
+      "auxiliary_trajectories_paired_within_role": true
+    },
+    {
+      "labeled": 2,
+      "labeled_hz": 65,
+      "seed": 0,
+      "runs": 8,
+      "physical_batch_sha256": "58677896ee97466f742bb195754b27b059c3788dfa249fd0ece615b37d9b8784",
+      "initialization_paired_across_roles": true,
+      "physical_samples_paired_across_roles": true,
+      "auxiliary_trajectories_paired_within_role": true
+    },
+    {
+      "labeled": 2,
+      "labeled_hz": 65,
+      "seed": 1,
+      "runs": 8,
+      "physical_batch_sha256": "04bb05bc346b5dac73e68aac8a4a7f340a79000643cd8844114a84b43fdaf4c5",
+      "initialization_paired_across_roles": true,
+      "physical_samples_paired_across_roles": true,
+      "auxiliary_trajectories_paired_within_role": true
+    },
+    {
+      "labeled": 2,
+      "labeled_hz": 65,
+      "seed": 2,
+      "runs": 8,
+      "physical_batch_sha256": "f2505e666c3503f288181cd1305851be6bdfacc4df589ad8af2a7ed21fc7f36a",
+      "initialization_paired_across_roles": true,
+      "physical_samples_paired_across_roles": true,
+      "auxiliary_trajectories_paired_within_role": true
+    }
+  ],
+  "completed_utc": "2026-11-18T11:27:51.032586+00:00",
+  "protocol_sha256": "485285af0425547e15e2041ae25adf0b4ee9313eff3635e40b3fc27b92aa082b"
+}

@@ -1,0 +1,152 @@
+{
+  "dataset": "user-class-major-MAT",
+  "source": "D:\\paper\\data\\PU\\C-PUdata12.mat",
+  "source_sha256": "1f7583c365d87eb9e5570d1daa6c5ad63f2d8534936d3fa981b8554e1bbb6caf",
+  "domains": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "npz_sha256": "ecbeb35aa9705dc296c41df1deca38f09ace8f77a644f55dae3b94d3acde03e3",
+  "input_shapes": {
+    "load6_train": [
+      9600,
+      3200
+    ],
+    "load6_test": [
+      2400,
+      3200
+    ],
+    "load7_train": [
+      9600,
+      3200
+    ],
+    "load7_test": [
+      2400,
+      3200
+    ],
+    "load8_train": [
+      9600,
+      3200
+    ],
+    "load8_test": [
+      2400,
+      3200
+    ],
+    "load9_train": [
+      9600,
+      3200
+    ],
+    "load9_test": [
+      2400,
+      3200
+    ]
+  },
+  "dtype": "float32",
+  "window_length": 3200,
+  "label_layout_evidence": "ZhaoDG2024Benchmark commit 370fca37e9323c79384dd1f14d8aac358f4cd359, Cross-working condition/data_loader_1d.py: training label=i//800, test label=i//200. File keys and shapes match this convention; no independent semantic labels supplied.",
+  "split": "First 90% of each class in supplied train matrix for training; last 10% for validation. Supplied test matrices preserved. Row indices are zero-based in original MAT variables.",
+  "output_shapes": {
+    "d6_train_x": [
+      8640,
+      3200
+    ],
+    "d6_train_y": [
+      8640
+    ],
+    "d6_val_x": [
+      960,
+      3200
+    ],
+    "d6_val_y": [
+      960
+    ],
+    "d6_test_x": [
+      2400,
+      3200
+    ],
+    "d6_test_y": [
+      2400
+    ],
+    "d7_train_x": [
+      8640,
+      3200
+    ],
+    "d7_train_y": [
+      8640
+    ],
+    "d7_val_x": [
+      960,
+      3200
+    ],
+    "d7_val_y": [
+      960
+    ],
+    "d7_test_x": [
+      2400,
+      3200
+    ],
+    "d7_test_y": [
+      2400
+    ],
+    "d8_train_x": [
+      8640,
+      3200
+    ],
+    "d8_train_y": [
+      8640
+    ],
+    "d8_val_x": [
+      960,
+      3200
+    ],
+    "d8_val_y": [
+      960
+    ],
+    "d8_test_x": [
+      2400,
+      3200
+    ],
+    "d8_test_y": [
+      2400
+    ],
+    "d9_train_x": [
+      8640,
+      3200
+    ],
+    "d9_train_y": [
+      8640
+    ],
+    "d9_val_x": [
+      960,
+      3200
+    ],
+    "d9_val_y": [
+      960
+    ],
+    "d9_test_x": [
+      2400,
+      3200
+    ],
+    "d9_test_y": [
+      2400
+    ]
+  },
+  "row_indices_file": "D:\\paper\\data\\PU\\cpu12_3200_v1.rows.npz",
+  "limitation": "No separate label metadata: class-major ordering follows the documented convention, and semantic class names remain unknown. Recording/group independence unverified; do not call this a leak-free paper reproduction without original split provenance."
+}

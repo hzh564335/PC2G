@@ -1,0 +1,49 @@
+{
+  "complete": true,
+  "checks": [
+    {
+      "dataset": "cwru",
+      "seed": 0,
+      "paired_models": 8,
+      "batch_and_aux_trajectory_equal": true,
+      "auxiliary_and_queue_endpoints_equal": true
+    },
+    {
+      "dataset": "cwru",
+      "seed": 1,
+      "paired_models": 8,
+      "batch_and_aux_trajectory_equal": true,
+      "auxiliary_and_queue_endpoints_equal": true
+    },
+    {
+      "dataset": "cwru",
+      "seed": 2,
+      "paired_models": 8,
+      "batch_and_aux_trajectory_equal": true,
+      "auxiliary_and_queue_endpoints_equal": true
+    },
+    {
+      "dataset": "hust",
+      "seed": 0,
+      "paired_models": 8,
+      "batch_and_aux_trajectory_equal": true,
+      "auxiliary_and_queue_endpoints_equal": true
+    },
+    {
+      "dataset": "hust",
+      "seed": 1,
+      "paired_models": 8,
+      "batch_and_aux_trajectory_equal": true,
+      "auxiliary_and_queue_endpoints_equal": true
+    },
+    {
+      "dataset": "hust",
+      "seed": 2,
+      "paired_models": 8,
+      "batch_and_aux_trajectory_equal": true,
+      "auxiliary_and_queue_endpoints_equal": true
+    }
+  ],
+  "models": 48,
+  "completed_utc": "2026-11-17T08:57:29.755704+00:00"
+}

@@ -1,0 +1,488 @@
+{
+  "complete": true,
+  "source_runs": 16,
+  "updates": 8,
+  "observational_equivalence": true,
+  "checks": [
+    {
+      "id": "hust-t3-L1-s0-raw-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 0,
+      "mode": "raw",
+      "B_weight": 0.0,
+      "complete": true,
+      "short_check": true,
+      "updates": 8,
+      "initial": {
+        "aux_hash": "751f65a28ef1b0bf454c3f83e9e2d235234ebb409e333d389ff89041e6a9d61a",
+        "base_aux_hash": "c712a17722b9253b5ce47a97471017293aabac67380382ccb34acfab3c89be5d",
+        "queue_hash": "9f7811f25051a57cb9d930332159a30067ccb0b10bb40a1aeba543527473f66b",
+        "main_hash": "b899df4dcbc763b89873ae8aed104898c9f249eca76eed4583166d024db3415a"
+      },
+      "final": {
+        "aux_hash": "dbb74e546298809bc9703e8db0e56fa111c804d7c8031f67e5aa8762ffa8e388",
+        "base_aux_hash": "19910de0dcefbb113dead62732c44d55f4b8e1cfeca4b98a9af8d03da7aa23c3",
+        "queue_hash": "8492e1e0a0c535d70cea8befd87a011150416f34eb1acbdb3c93742ada33573a",
+        "main_hash": "dcbdf1714da05bf91d3299c1e270dd8e08a80f576511c5a8bd820f68a1840459"
+      },
+      "observational_equivalence": true,
+      "head_ce_rows": 8,
+      "main_forward_calls": 8,
+      "bn_restorations": 0,
+      "batch_digest": "91c9e041e7b542e873c702d89e6cf2839e14a78ce01f78706d03de15394c974b",
+      "trajectory_digest": "209a21b8d46f6ee3f9037c0684ed9dbaf89365ad86009cd8d6c0f9b18a0ef984"
+    },
+    {
+      "id": "hust-t3-L1-s0-raw-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 0,
+      "mode": "raw",
+      "B_weight": 0.1,
+      "complete": true,
+      "short_check": true,
+      "updates": 8,
+      "initial": {
+        "aux_hash": "751f65a28ef1b0bf454c3f83e9e2d235234ebb409e333d389ff89041e6a9d61a",
+        "base_aux_hash": "c712a17722b9253b5ce47a97471017293aabac67380382ccb34acfab3c89be5d",
+        "queue_hash": "9f7811f25051a57cb9d930332159a30067ccb0b10bb40a1aeba543527473f66b",
+        "main_hash": "b899df4dcbc763b89873ae8aed104898c9f249eca76eed4583166d024db3415a"
+      },
+      "final": {
+        "aux_hash": "dbb74e546298809bc9703e8db0e56fa111c804d7c8031f67e5aa8762ffa8e388",
+        "base_aux_hash": "19910de0dcefbb113dead62732c44d55f4b8e1cfeca4b98a9af8d03da7aa23c3",
+        "queue_hash": "8492e1e0a0c535d70cea8befd87a011150416f34eb1acbdb3c93742ada33573a",
+        "main_hash": "db662d37db3fb320994d2a0ac28b343c5b1e87007c86af10ac571b9efcfdf9ca"
+      },
+      "observational_equivalence": true,
+      "head_ce_rows": 8,
+      "main_forward_calls": 16,
+      "bn_restorations": 8,
+      "batch_digest": "91c9e041e7b542e873c702d89e6cf2839e14a78ce01f78706d03de15394c974b",
+      "trajectory_digest": "209a21b8d46f6ee3f9037c0684ed9dbaf89365ad86009cd8d6c0f9b18a0ef984"
+    },
+    {
+      "id": "hust-t3-L1-s0-labels_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 0,
+      "mode": "labels_only",
+      "B_weight": 0.0,
+      "complete": true,
+      "short_check": true,
+      "updates": 8,
+      "initial": {
+        "aux_hash": "751f65a28ef1b0bf454c3f83e9e2d235234ebb409e333d389ff89041e6a9d61a",
+        "base_aux_hash": "c712a17722b9253b5ce47a97471017293aabac67380382ccb34acfab3c89be5d",
+        "queue_hash": "9f7811f25051a57cb9d930332159a30067ccb0b10bb40a1aeba543527473f66b",
+        "main_hash": "b899df4dcbc763b89873ae8aed104898c9f249eca76eed4583166d024db3415a"
+      },
+      "final": {
+        "aux_hash": "dbb74e546298809bc9703e8db0e56fa111c804d7c8031f67e5aa8762ffa8e388",
+        "base_aux_hash": "19910de0dcefbb113dead62732c44d55f4b8e1cfeca4b98a9af8d03da7aa23c3",
+        "queue_hash": "8492e1e0a0c535d70cea8befd87a011150416f34eb1acbdb3c93742ada33573a",
+        "main_hash": "085621d2ce567eaa1a02a7d1019aeae23b48f68f4dfccb8b27c4395f4500380c"
+      },
+      "observational_equivalence": true,
+      "head_ce_rows": 8,
+      "main_forward_calls": 8,
+      "bn_restorations": 0,
+      "batch_digest": "91c9e041e7b542e873c702d89e6cf2839e14a78ce01f78706d03de15394c974b",
+      "trajectory_digest": "209a21b8d46f6ee3f9037c0684ed9dbaf89365ad86009cd8d6c0f9b18a0ef984"
+    },
+    {
+      "id": "hust-t3-L1-s0-labels_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 0,
+      "mode": "labels_only",
+      "B_weight": 0.1,
+      "complete": true,
+      "short_check": true,
+      "updates": 8,
+      "initial": {
+        "aux_hash": "751f65a28ef1b0bf454c3f83e9e2d235234ebb409e333d389ff89041e6a9d61a",
+        "base_aux_hash": "c712a17722b9253b5ce47a97471017293aabac67380382ccb34acfab3c89be5d",
+        "queue_hash": "9f7811f25051a57cb9d930332159a30067ccb0b10bb40a1aeba543527473f66b",
+        "main_hash": "b899df4dcbc763b89873ae8aed104898c9f249eca76eed4583166d024db3415a"
+      },
+      "final": {
+        "aux_hash": "dbb74e546298809bc9703e8db0e56fa111c804d7c8031f67e5aa8762ffa8e388",
+        "base_aux_hash": "19910de0dcefbb113dead62732c44d55f4b8e1cfeca4b98a9af8d03da7aa23c3",
+        "queue_hash": "8492e1e0a0c535d70cea8befd87a011150416f34eb1acbdb3c93742ada33573a",
+        "main_hash": "33501500757abf1ee4ba9f756da8da593314a56b3da50aae19b9bdb16fbc5c20"
+      },
+      "observational_equivalence": true,
+      "head_ce_rows": 8,
+      "main_forward_calls": 16,
+      "bn_restorations": 8,
+      "batch_digest": "91c9e041e7b542e873c702d89e6cf2839e14a78ce01f78706d03de15394c974b",
+      "trajectory_digest": "209a21b8d46f6ee3f9037c0684ed9dbaf89365ad86009cd8d6c0f9b18a0ef984"
+    },
+    {
+      "id": "hust-t3-L1-s0-selection_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 0,
+      "mode": "selection_only",
+      "B_weight": 0.0,
+      "complete": true,
+      "short_check": true,
+      "updates": 8,
+      "initial": {
+        "aux_hash": "751f65a28ef1b0bf454c3f83e9e2d235234ebb409e333d389ff89041e6a9d61a",
+        "base_aux_hash": "c712a17722b9253b5ce47a97471017293aabac67380382ccb34acfab3c89be5d",
+        "queue_hash": "9f7811f25051a57cb9d930332159a30067ccb0b10bb40a1aeba543527473f66b",
+        "main_hash": "b899df4dcbc763b89873ae8aed104898c9f249eca76eed4583166d024db3415a"
+      },
+      "final": {
+        "aux_hash": "dbb74e546298809bc9703e8db0e56fa111c804d7c8031f67e5aa8762ffa8e388",
+        "base_aux_hash": "19910de0dcefbb113dead62732c44d55f4b8e1cfeca4b98a9af8d03da7aa23c3",
+        "queue_hash": "8492e1e0a0c535d70cea8befd87a011150416f34eb1acbdb3c93742ada33573a",
+        "main_hash": "0614577a69ef4164fb1b1eefa485d9825c4fa16527e375b7fe6001dab414f93d"
+      },
+      "observational_equivalence": true,
+      "head_ce_rows": 8,
+      "main_forward_calls": 8,
+      "bn_restorations": 0,
+      "batch_digest": "91c9e041e7b542e873c702d89e6cf2839e14a78ce01f78706d03de15394c974b",
+      "trajectory_digest": "209a21b8d46f6ee3f9037c0684ed9dbaf89365ad86009cd8d6c0f9b18a0ef984"
+    },
+    {
+      "id": "hust-t3-L1-s0-selection_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 0,
+      "mode": "selection_only",
+      "B_weight": 0.1,
+      "complete": true,
+      "short_check": true,
+      "updates": 8,
+      "initial": {
+        "aux_hash": "751f65a28ef1b0bf454c3f83e9e2d235234ebb409e333d389ff89041e6a9d61a",
+        "base_aux_hash": "c712a17722b9253b5ce47a97471017293aabac67380382ccb34acfab3c89be5d",
+        "queue_hash": "9f7811f25051a57cb9d930332159a30067ccb0b10bb40a1aeba543527473f66b",
+        "main_hash": "b899df4dcbc763b89873ae8aed104898c9f249eca76eed4583166d024db3415a"
+      },
+      "final": {
+        "aux_hash": "dbb74e546298809bc9703e8db0e56fa111c804d7c8031f67e5aa8762ffa8e388",
+        "base_aux_hash": "19910de0dcefbb113dead62732c44d55f4b8e1cfeca4b98a9af8d03da7aa23c3",
+        "queue_hash": "8492e1e0a0c535d70cea8befd87a011150416f34eb1acbdb3c93742ada33573a",
+        "main_hash": "606866d6929ff81d4b2fde057232e3ba02d6fc6bda52f071bdfa388c7ead95e0"
+      },
+      "observational_equivalence": true,
+      "head_ce_rows": 8,
+      "main_forward_calls": 16,
+      "bn_restorations": 8,
+      "batch_digest": "91c9e041e7b542e873c702d89e6cf2839e14a78ce01f78706d03de15394c974b",
+      "trajectory_digest": "209a21b8d46f6ee3f9037c0684ed9dbaf89365ad86009cd8d6c0f9b18a0ef984"
+    },
+    {
+      "id": "hust-t3-L1-s0-full-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 0,
+      "mode": "full",
+      "B_weight": 0.0,
+      "complete": true,
+      "short_check": true,
+      "updates": 8,
+      "initial": {
+        "aux_hash": "751f65a28ef1b0bf454c3f83e9e2d235234ebb409e333d389ff89041e6a9d61a",
+        "base_aux_hash": "c712a17722b9253b5ce47a97471017293aabac67380382ccb34acfab3c89be5d",
+        "queue_hash": "9f7811f25051a57cb9d930332159a30067ccb0b10bb40a1aeba543527473f66b",
+        "main_hash": "b899df4dcbc763b89873ae8aed104898c9f249eca76eed4583166d024db3415a"
+      },
+      "final": {
+        "aux_hash": "dbb74e546298809bc9703e8db0e56fa111c804d7c8031f67e5aa8762ffa8e388",
+        "base_aux_hash": "19910de0dcefbb113dead62732c44d55f4b8e1cfeca4b98a9af8d03da7aa23c3",
+        "queue_hash": "8492e1e0a0c535d70cea8befd87a011150416f34eb1acbdb3c93742ada33573a",
+        "main_hash": "63ff5e876745ee711f69417fdfede8a758c4b7c5690db71958b71debb9f6102a"
+      },
+      "observational_equivalence": true,
+      "head_ce_rows": 8,
+      "main_forward_calls": 8,
+      "bn_restorations": 0,
+      "batch_digest": "91c9e041e7b542e873c702d89e6cf2839e14a78ce01f78706d03de15394c974b",
+      "trajectory_digest": "209a21b8d46f6ee3f9037c0684ed9dbaf89365ad86009cd8d6c0f9b18a0ef984"
+    },
+    {
+      "id": "hust-t3-L1-s0-full-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 0,
+      "mode": "full",
+      "B_weight": 0.1,
+      "complete": true,
+      "short_check": true,
+      "updates": 8,
+      "initial": {
+        "aux_hash": "751f65a28ef1b0bf454c3f83e9e2d235234ebb409e333d389ff89041e6a9d61a",
+        "base_aux_hash": "c712a17722b9253b5ce47a97471017293aabac67380382ccb34acfab3c89be5d",
+        "queue_hash": "9f7811f25051a57cb9d930332159a30067ccb0b10bb40a1aeba543527473f66b",
+        "main_hash": "b899df4dcbc763b89873ae8aed104898c9f249eca76eed4583166d024db3415a"
+      },
+      "final": {
+        "aux_hash": "dbb74e546298809bc9703e8db0e56fa111c804d7c8031f67e5aa8762ffa8e388",
+        "base_aux_hash": "19910de0dcefbb113dead62732c44d55f4b8e1cfeca4b98a9af8d03da7aa23c3",
+        "queue_hash": "8492e1e0a0c535d70cea8befd87a011150416f34eb1acbdb3c93742ada33573a",
+        "main_hash": "02e0eb4fa43589c6afab6e67e69dd8c5c8016896ee82e042ff8e87ad73306dd6"
+      },
+      "observational_equivalence": true,
+      "head_ce_rows": 8,
+      "main_forward_calls": 16,
+      "bn_restorations": 8,
+      "batch_digest": "91c9e041e7b542e873c702d89e6cf2839e14a78ce01f78706d03de15394c974b",
+      "trajectory_digest": "209a21b8d46f6ee3f9037c0684ed9dbaf89365ad86009cd8d6c0f9b18a0ef984"
+    },
+    {
+      "id": "hust-t3-L2-s0-raw-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 0,
+      "mode": "raw",
+      "B_weight": 0.0,
+      "complete": true,
+      "short_check": true,
+      "updates": 8,
+      "initial": {
+        "aux_hash": "751f65a28ef1b0bf454c3f83e9e2d235234ebb409e333d389ff89041e6a9d61a",
+        "base_aux_hash": "c712a17722b9253b5ce47a97471017293aabac67380382ccb34acfab3c89be5d",
+        "queue_hash": "9f7811f25051a57cb9d930332159a30067ccb0b10bb40a1aeba543527473f66b",
+        "main_hash": "b899df4dcbc763b89873ae8aed104898c9f249eca76eed4583166d024db3415a"
+      },
+      "final": {
+        "aux_hash": "321708cfbf81aeaae53e77123d136e7324cef3e3b88e19a5754f8c5cf3ece8f5",
+        "base_aux_hash": "00d6db5c12f5783b6e24c9d370feb0f379c303dc32e5ce4fbd9e20ebefb1aa23",
+        "queue_hash": "72c1f3e69dfb9d96f2494ea80fc7c4a987bf70a54a8b01345e7c632c17773abc",
+        "main_hash": "9e2c80c7ea9328e9709aac24d9a881446cfc61d0e936ccfca456ec4737a49d8b"
+      },
+      "observational_equivalence": true,
+      "head_ce_rows": 8,
+      "main_forward_calls": 8,
+      "bn_restorations": 0,
+      "batch_digest": "ee0c84e0b425661b8cac2c6576f1d58f56c97df719646bd7f683de62a4ec7449",
+      "trajectory_digest": "35af81579271b5a05f75694e8fcb254614f0efbb32fffc0f934edce3f6c75726"
+    },
+    {
+      "id": "hust-t3-L2-s0-raw-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 0,
+      "mode": "raw",
+      "B_weight": 0.1,
+      "complete": true,
+      "short_check": true,
+      "updates": 8,
+      "initial": {
+        "aux_hash": "751f65a28ef1b0bf454c3f83e9e2d235234ebb409e333d389ff89041e6a9d61a",
+        "base_aux_hash": "c712a17722b9253b5ce47a97471017293aabac67380382ccb34acfab3c89be5d",
+        "queue_hash": "9f7811f25051a57cb9d930332159a30067ccb0b10bb40a1aeba543527473f66b",
+        "main_hash": "b899df4dcbc763b89873ae8aed104898c9f249eca76eed4583166d024db3415a"
+      },
+      "final": {
+        "aux_hash": "321708cfbf81aeaae53e77123d136e7324cef3e3b88e19a5754f8c5cf3ece8f5",
+        "base_aux_hash": "00d6db5c12f5783b6e24c9d370feb0f379c303dc32e5ce4fbd9e20ebefb1aa23",
+        "queue_hash": "72c1f3e69dfb9d96f2494ea80fc7c4a987bf70a54a8b01345e7c632c17773abc",
+        "main_hash": "cf70c775e7b173e7280d6fcb1403f17071fd5d12db01596c21fc3314ce1521d0"
+      },
+      "observational_equivalence": true,
+      "head_ce_rows": 8,
+      "main_forward_calls": 16,
+      "bn_restorations": 8,
+      "batch_digest": "ee0c84e0b425661b8cac2c6576f1d58f56c97df719646bd7f683de62a4ec7449",
+      "trajectory_digest": "35af81579271b5a05f75694e8fcb254614f0efbb32fffc0f934edce3f6c75726"
+    },
+    {
+      "id": "hust-t3-L2-s0-labels_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 0,
+      "mode": "labels_only",
+      "B_weight": 0.0,
+      "complete": true,
+      "short_check": true,
+      "updates": 8,
+      "initial": {
+        "aux_hash": "751f65a28ef1b0bf454c3f83e9e2d235234ebb409e333d389ff89041e6a9d61a",
+        "base_aux_hash": "c712a17722b9253b5ce47a97471017293aabac67380382ccb34acfab3c89be5d",
+        "queue_hash": "9f7811f25051a57cb9d930332159a30067ccb0b10bb40a1aeba543527473f66b",
+        "main_hash": "b899df4dcbc763b89873ae8aed104898c9f249eca76eed4583166d024db3415a"
+      },
+      "final": {
+        "aux_hash": "321708cfbf81aeaae53e77123d136e7324cef3e3b88e19a5754f8c5cf3ece8f5",
+        "base_aux_hash": "00d6db5c12f5783b6e24c9d370feb0f379c303dc32e5ce4fbd9e20ebefb1aa23",
+        "queue_hash": "72c1f3e69dfb9d96f2494ea80fc7c4a987bf70a54a8b01345e7c632c17773abc",
+        "main_hash": "4bace3f2dc8f061cb38dd6d285f6d8abba207706907ecef11349bee6a36d2752"
+      },
+      "observational_equivalence": true,
+      "head_ce_rows": 8,
+      "main_forward_calls": 8,
+      "bn_restorations": 0,
+      "batch_digest": "ee0c84e0b425661b8cac2c6576f1d58f56c97df719646bd7f683de62a4ec7449",
+      "trajectory_digest": "35af81579271b5a05f75694e8fcb254614f0efbb32fffc0f934edce3f6c75726"
+    },
+    {
+      "id": "hust-t3-L2-s0-labels_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 0,
+      "mode": "labels_only",
+      "B_weight": 0.1,
+      "complete": true,
+      "short_check": true,
+      "updates": 8,
+      "initial": {
+        "aux_hash": "751f65a28ef1b0bf454c3f83e9e2d235234ebb409e333d389ff89041e6a9d61a",
+        "base_aux_hash": "c712a17722b9253b5ce47a97471017293aabac67380382ccb34acfab3c89be5d",
+        "queue_hash": "9f7811f25051a57cb9d930332159a30067ccb0b10bb40a1aeba543527473f66b",
+        "main_hash": "b899df4dcbc763b89873ae8aed104898c9f249eca76eed4583166d024db3415a"
+      },
+      "final": {
+        "aux_hash": "321708cfbf81aeaae53e77123d136e7324cef3e3b88e19a5754f8c5cf3ece8f5",
+        "base_aux_hash": "00d6db5c12f5783b6e24c9d370feb0f379c303dc32e5ce4fbd9e20ebefb1aa23",
+        "queue_hash": "72c1f3e69dfb9d96f2494ea80fc7c4a987bf70a54a8b01345e7c632c17773abc",
+        "main_hash": "2733c90d03e3b94a07183915f119518a387bffd2f3786900ff3f6b23bd0d4336"
+      },
+      "observational_equivalence": true,
+      "head_ce_rows": 8,
+      "main_forward_calls": 16,
+      "bn_restorations": 8,
+      "batch_digest": "ee0c84e0b425661b8cac2c6576f1d58f56c97df719646bd7f683de62a4ec7449",
+      "trajectory_digest": "35af81579271b5a05f75694e8fcb254614f0efbb32fffc0f934edce3f6c75726"
+    },
+    {
+      "id": "hust-t3-L2-s0-selection_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 0,
+      "mode": "selection_only",
+      "B_weight": 0.0,
+      "complete": true,
+      "short_check": true,
+      "updates": 8,
+      "initial": {
+        "aux_hash": "751f65a28ef1b0bf454c3f83e9e2d235234ebb409e333d389ff89041e6a9d61a",
+        "base_aux_hash": "c712a17722b9253b5ce47a97471017293aabac67380382ccb34acfab3c89be5d",
+        "queue_hash": "9f7811f25051a57cb9d930332159a30067ccb0b10bb40a1aeba543527473f66b",
+        "main_hash": "b899df4dcbc763b89873ae8aed104898c9f249eca76eed4583166d024db3415a"
+      },
+      "final": {
+        "aux_hash": "321708cfbf81aeaae53e77123d136e7324cef3e3b88e19a5754f8c5cf3ece8f5",
+        "base_aux_hash": "00d6db5c12f5783b6e24c9d370feb0f379c303dc32e5ce4fbd9e20ebefb1aa23",
+        "queue_hash": "72c1f3e69dfb9d96f2494ea80fc7c4a987bf70a54a8b01345e7c632c17773abc",
+        "main_hash": "e7eb07039e11a0ada49f35992f378cb24a05791d51987bafdf73fdb8566afb2a"
+      },
+      "observational_equivalence": true,
+      "head_ce_rows": 8,
+      "main_forward_calls": 8,
+      "bn_restorations": 0,
+      "batch_digest": "ee0c84e0b425661b8cac2c6576f1d58f56c97df719646bd7f683de62a4ec7449",
+      "trajectory_digest": "35af81579271b5a05f75694e8fcb254614f0efbb32fffc0f934edce3f6c75726"
+    },
+    {
+      "id": "hust-t3-L2-s0-selection_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 0,
+      "mode": "selection_only",
+      "B_weight": 0.1,
+      "complete": true,
+      "short_check": true,
+      "updates": 8,
+      "initial": {
+        "aux_hash": "751f65a28ef1b0bf454c3f83e9e2d235234ebb409e333d389ff89041e6a9d61a",
+        "base_aux_hash": "c712a17722b9253b5ce47a97471017293aabac67380382ccb34acfab3c89be5d",
+        "queue_hash": "9f7811f25051a57cb9d930332159a30067ccb0b10bb40a1aeba543527473f66b",
+        "main_hash": "b899df4dcbc763b89873ae8aed104898c9f249eca76eed4583166d024db3415a"
+      },
+      "final": {
+        "aux_hash": "321708cfbf81aeaae53e77123d136e7324cef3e3b88e19a5754f8c5cf3ece8f5",
+        "base_aux_hash": "00d6db5c12f5783b6e24c9d370feb0f379c303dc32e5ce4fbd9e20ebefb1aa23",
+        "queue_hash": "72c1f3e69dfb9d96f2494ea80fc7c4a987bf70a54a8b01345e7c632c17773abc",
+        "main_hash": "ddd2a37ceccd9f9f3cb1deacdcb824a6c162f955f78497a7695bcbb6e2f3179e"
+      },
+      "observational_equivalence": true,
+      "head_ce_rows": 8,
+      "main_forward_calls": 16,
+      "bn_restorations": 8,
+      "batch_digest": "ee0c84e0b425661b8cac2c6576f1d58f56c97df719646bd7f683de62a4ec7449",
+      "trajectory_digest": "35af81579271b5a05f75694e8fcb254614f0efbb32fffc0f934edce3f6c75726"
+    },
+    {
+      "id": "hust-t3-L2-s0-full-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 0,
+      "mode": "full",
+      "B_weight": 0.0,
+      "complete": true,
+      "short_check": true,
+      "updates": 8,
+      "initial": {
+        "aux_hash": "751f65a28ef1b0bf454c3f83e9e2d235234ebb409e333d389ff89041e6a9d61a",
+        "base_aux_hash": "c712a17722b9253b5ce47a97471017293aabac67380382ccb34acfab3c89be5d",
+        "queue_hash": "9f7811f25051a57cb9d930332159a30067ccb0b10bb40a1aeba543527473f66b",
+        "main_hash": "b899df4dcbc763b89873ae8aed104898c9f249eca76eed4583166d024db3415a"
+      },
+      "final": {
+        "aux_hash": "321708cfbf81aeaae53e77123d136e7324cef3e3b88e19a5754f8c5cf3ece8f5",
+        "base_aux_hash": "00d6db5c12f5783b6e24c9d370feb0f379c303dc32e5ce4fbd9e20ebefb1aa23",
+        "queue_hash": "72c1f3e69dfb9d96f2494ea80fc7c4a987bf70a54a8b01345e7c632c17773abc",
+        "main_hash": "720ff168269028aa6b39140355c6c09bae4504adc24a6c34b032d4600be0ced1"
+      },
+      "observational_equivalence": true,
+      "head_ce_rows": 8,
+      "main_forward_calls": 8,
+      "bn_restorations": 0,
+      "batch_digest": "ee0c84e0b425661b8cac2c6576f1d58f56c97df719646bd7f683de62a4ec7449",
+      "trajectory_digest": "35af81579271b5a05f75694e8fcb254614f0efbb32fffc0f934edce3f6c75726"
+    },
+    {
+      "id": "hust-t3-L2-s0-full-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 0,
+      "mode": "full",
+      "B_weight": 0.1,
+      "complete": true,
+      "short_check": true,
+      "updates": 8,
+      "initial": {
+        "aux_hash": "751f65a28ef1b0bf454c3f83e9e2d235234ebb409e333d389ff89041e6a9d61a",
+        "base_aux_hash": "c712a17722b9253b5ce47a97471017293aabac67380382ccb34acfab3c89be5d",
+        "queue_hash": "9f7811f25051a57cb9d930332159a30067ccb0b10bb40a1aeba543527473f66b",
+        "main_hash": "b899df4dcbc763b89873ae8aed104898c9f249eca76eed4583166d024db3415a"
+      },
+      "final": {
+        "aux_hash": "321708cfbf81aeaae53e77123d136e7324cef3e3b88e19a5754f8c5cf3ece8f5",
+        "base_aux_hash": "00d6db5c12f5783b6e24c9d370feb0f379c303dc32e5ce4fbd9e20ebefb1aa23",
+        "queue_hash": "72c1f3e69dfb9d96f2494ea80fc7c4a987bf70a54a8b01345e7c632c17773abc",
+        "main_hash": "4ecc4c39421e0d810e87487cbb26e201fb6a1cc89899f5899e11e5d281ec24b2"
+      },
+      "observational_equivalence": true,
+      "head_ce_rows": 8,
+      "main_forward_calls": 16,
+      "bn_restorations": 8,
+      "batch_digest": "ee0c84e0b425661b8cac2c6576f1d58f56c97df719646bd7f683de62a4ec7449",
+      "trajectory_digest": "35af81579271b5a05f75694e8fcb254614f0efbb32fffc0f934edce3f6c75726"
+    }
+  ]
+}

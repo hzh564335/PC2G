@@ -1,0 +1,119 @@
+{
+  "complete": true,
+  "models": 9,
+  "total_with_baseline": 12,
+  "actual_ce_rows": 45000,
+  "short_optimizer_updates": 120,
+  "protocol_sha256": "41caa79d481ed3c998fc19b808050cfdc153746e44f31b1605cf2d1ecd50353a",
+  "checks": [
+    {
+      "id": "hust-t3-L0-s0-full-B1",
+      "arm": "A",
+      "seed": 0,
+      "reused": true,
+      "paired_source_trace": true,
+      "complete_updates": 5000,
+      "split_loss_rows": 0
+    },
+    {
+      "id": "hust-t3-L0-s1-full-B1",
+      "arm": "A",
+      "seed": 1,
+      "reused": true,
+      "paired_source_trace": true,
+      "complete_updates": 5000,
+      "split_loss_rows": 0
+    },
+    {
+      "id": "hust-t3-L0-s2-full-B1",
+      "arm": "A",
+      "seed": 2,
+      "reused": true,
+      "paired_source_trace": true,
+      "complete_updates": 5000,
+      "split_loss_rows": 0
+    },
+    {
+      "id": "hust-t3-L0-s0-path-B",
+      "arm": "B",
+      "seed": 0,
+      "reused": false,
+      "paired_source_trace": true,
+      "complete_updates": 5000,
+      "split_loss_rows": 5000
+    },
+    {
+      "id": "hust-t3-L0-s1-path-B",
+      "arm": "B",
+      "seed": 1,
+      "reused": false,
+      "paired_source_trace": true,
+      "complete_updates": 5000,
+      "split_loss_rows": 5000
+    },
+    {
+      "id": "hust-t3-L0-s2-path-B",
+      "arm": "B",
+      "seed": 2,
+      "reused": false,
+      "paired_source_trace": true,
+      "complete_updates": 5000,
+      "split_loss_rows": 5000
+    },
+    {
+      "id": "hust-t3-L0-s0-path-C",
+      "arm": "C",
+      "seed": 0,
+      "reused": false,
+      "paired_source_trace": true,
+      "complete_updates": 5000,
+      "split_loss_rows": 5000
+    },
+    {
+      "id": "hust-t3-L0-s1-path-C",
+      "arm": "C",
+      "seed": 1,
+      "reused": false,
+      "paired_source_trace": true,
+      "complete_updates": 5000,
+      "split_loss_rows": 5000
+    },
+    {
+      "id": "hust-t3-L0-s2-path-C",
+      "arm": "C",
+      "seed": 2,
+      "reused": false,
+      "paired_source_trace": true,
+      "complete_updates": 5000,
+      "split_loss_rows": 5000
+    },
+    {
+      "id": "hust-t3-L0-s0-path-D",
+      "arm": "D",
+      "seed": 0,
+      "reused": false,
+      "paired_source_trace": true,
+      "complete_updates": 5000,
+      "split_loss_rows": 5000
+    },
+    {
+      "id": "hust-t3-L0-s1-path-D",
+      "arm": "D",
+      "seed": 1,
+      "reused": false,
+      "paired_source_trace": true,
+      "complete_updates": 5000,
+      "split_loss_rows": 5000
+    },
+    {
+      "id": "hust-t3-L0-s2-path-D",
+      "arm": "D",
+      "seed": 2,
+      "reused": false,
+      "paired_source_trace": true,
+      "complete_updates": 5000,
+      "split_loss_rows": 5000
+    }
+  ],
+  "completed_utc": "2026-11-19T02:31:03.630169+00:00"
+}

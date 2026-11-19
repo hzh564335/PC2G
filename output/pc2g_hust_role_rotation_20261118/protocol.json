@@ -1,0 +1,746 @@
+{
+  "created_utc": "2026-11-18T05:15:41.330125+00:00",
+  "scope": "HUSTbearing labeled-source role rotation",
+  "runs_dir": "D:\\paper\\runs\\pc2g_hust_role_rotation_20261118",
+  "baseline_runs_dir": "D:\\paper\\runs\\pc2g_cross_dataset_pilot_20261117",
+  "target": 3,
+  "domains": [
+    20,
+    35,
+    65,
+    80
+  ],
+  "new_labeled_roles": [
+    1,
+    2
+  ],
+  "reused_labeled_role": 0,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "steps": 5000,
+  "checkpoint_rule": "fixed_step_5000",
+  "source_validation_records": 0,
+  "batch_per_domain": 64,
+  "optimizer": "Adam",
+  "weight_decay": 0.0005,
+  "lr_rule": "0.001 / (1 + 10 * (step - 1) / 5000) ** 0.75",
+  "profile": "paper_objective",
+  "prior_queue_length": 128,
+  "consistency_weight_levels": [
+    0.0,
+    0.1
+  ],
+  "pairing": "Same seed initialization. Draw for physical domains 0,1,2, then order the tensors [L,U1,U2]. Perturbation follows the original role-slot RNG.",
+  "supervision_diagnostics": "Offline source truth after full source training; per-domain and per-class counts and nominal CE weight. Actual per-head per-domain training CE recorded for new models only.",
+  "target_release": "New target evaluation after all 48 source models complete and all 72 source traces pass pairing.",
+  "primary_metrics": [
+    "target_accuracy",
+    "target_macro_f1",
+    "target_class_recall",
+    "target_predicted_normal_fraction"
+  ],
+  "within_role_contrasts": [
+    "Full−Select",
+    "Label−Raw",
+    "Select−Raw",
+    "Full−Label−Select+Raw"
+  ],
+  "contrasts_condition_on": "Report with B off and with B on separately; three paired optimization seeds, descriptive.",
+  "rows": [
+    {
+      "id": "hust-t3-L1-s0-raw-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 0,
+      "mode": "raw",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L1-s0-raw-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 0,
+      "mode": "raw",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L1-s0-labels_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 0,
+      "mode": "labels_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L1-s0-labels_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 0,
+      "mode": "labels_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L1-s0-selection_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 0,
+      "mode": "selection_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L1-s0-selection_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 0,
+      "mode": "selection_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L1-s0-full-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 0,
+      "mode": "full",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L1-s0-full-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 0,
+      "mode": "full",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L1-s1-raw-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 1,
+      "mode": "raw",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L1-s1-raw-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 1,
+      "mode": "raw",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L1-s1-labels_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 1,
+      "mode": "labels_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L1-s1-labels_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 1,
+      "mode": "labels_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L1-s1-selection_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 1,
+      "mode": "selection_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L1-s1-selection_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 1,
+      "mode": "selection_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L1-s1-full-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 1,
+      "mode": "full",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L1-s1-full-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 1,
+      "mode": "full",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L1-s2-raw-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 2,
+      "mode": "raw",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L1-s2-raw-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 2,
+      "mode": "raw",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L1-s2-labels_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 2,
+      "mode": "labels_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L1-s2-labels_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 2,
+      "mode": "labels_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L1-s2-selection_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 2,
+      "mode": "selection_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L1-s2-selection_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 2,
+      "mode": "selection_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L1-s2-full-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 2,
+      "mode": "full",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L1-s2-full-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 1,
+      "seed": 2,
+      "mode": "full",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L2-s0-raw-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 0,
+      "mode": "raw",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L2-s0-raw-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 0,
+      "mode": "raw",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L2-s0-labels_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 0,
+      "mode": "labels_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L2-s0-labels_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 0,
+      "mode": "labels_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L2-s0-selection_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 0,
+      "mode": "selection_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L2-s0-selection_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 0,
+      "mode": "selection_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L2-s0-full-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 0,
+      "mode": "full",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L2-s0-full-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 0,
+      "mode": "full",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L2-s1-raw-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 1,
+      "mode": "raw",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L2-s1-raw-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 1,
+      "mode": "raw",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L2-s1-labels_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 1,
+      "mode": "labels_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L2-s1-labels_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 1,
+      "mode": "labels_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L2-s1-selection_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 1,
+      "mode": "selection_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L2-s1-selection_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 1,
+      "mode": "selection_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L2-s1-full-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 1,
+      "mode": "full",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L2-s1-full-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 1,
+      "mode": "full",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L2-s2-raw-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 2,
+      "mode": "raw",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L2-s2-raw-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 2,
+      "mode": "raw",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L2-s2-labels_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 2,
+      "mode": "labels_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L2-s2-labels_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 2,
+      "mode": "labels_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L2-s2-selection_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 2,
+      "mode": "selection_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L2-s2-selection_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 2,
+      "mode": "selection_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L2-s2-full-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 2,
+      "mode": "full",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L2-s2-full-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 2,
+      "seed": 2,
+      "mode": "full",
+      "B_weight": 0.1
+    }
+  ],
+  "baseline_rows": [
+    {
+      "id": "hust-t3-L0-s0-raw-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "raw",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L0-s0-raw-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "raw",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L0-s0-labels_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "labels_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L0-s0-labels_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "labels_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L0-s0-selection_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "selection_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L0-s0-selection_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "selection_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L0-s0-full-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "full",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L0-s0-full-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 0,
+      "mode": "full",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L0-s1-raw-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "raw",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L0-s1-raw-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "raw",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L0-s1-labels_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "labels_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L0-s1-labels_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "labels_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L0-s1-selection_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "selection_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L0-s1-selection_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "selection_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L0-s1-full-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "full",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L0-s1-full-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 1,
+      "mode": "full",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L0-s2-raw-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "raw",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L0-s2-raw-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "raw",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L0-s2-labels_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "labels_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L0-s2-labels_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "labels_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L0-s2-selection_only-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "selection_only",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L0-s2-selection_only-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "selection_only",
+      "B_weight": 0.1
+    },
+    {
+      "id": "hust-t3-L0-s2-full-B0",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "full",
+      "B_weight": 0.0
+    },
+    {
+      "id": "hust-t3-L0-s2-full-B1",
+      "dataset": "hust",
+      "target": 3,
+      "labeled": 0,
+      "seed": 2,
+      "mode": "full",
+      "B_weight": 0.1
+    }
+  ],
+  "baseline_source_receipt_sha256": {
+    "hust-t3-L0-s0-raw-B0": "bf8714c24af7060a54792c795f9c99c3079f29fe813b4e02aa79aec841e3cd91",
+    "hust-t3-L0-s0-raw-B1": "1435ec8388a4d319357cf9c7373e87b9e887c27efca6bb800665a01c28c0fda7",
+    "hust-t3-L0-s0-labels_only-B0": "1eebc0c8267892f79006d6bf869fc25cc3a20b5278f451d66d6dabdf9e192252",
+    "hust-t3-L0-s0-labels_only-B1": "1fe6488e51515d9d5b428515d569240db4de90762256996f9d3fe37bc0c26759",
+    "hust-t3-L0-s0-selection_only-B0": "8fa61f0c6c2e7b06bebb9824b19505de749de7dc34080a4cb0169444f0e860af",
+    "hust-t3-L0-s0-selection_only-B1": "b91a68aca9165abd833d8d3192e2678225ea3bca81a190080865ff2646732b31",
+    "hust-t3-L0-s0-full-B0": "c6a7402e52dd2a5697cd1216914bb39fded230d3be39777d58b38fda9d252752",
+    "hust-t3-L0-s0-full-B1": "4045223dfd9d8ec519206d8d00473655cc3b4b086c04d6a6576dda2eb9a7b169",
+    "hust-t3-L0-s1-raw-B0": "4ecd7886257c70b95a5fefb3f225815a2457ca5e22d53e391d7b848e2c68f414",
+    "hust-t3-L0-s1-raw-B1": "dacae88218af7f3a7b2a5be5094002306cf44a0d522b452b16caddf0a30ba7a5",
+    "hust-t3-L0-s1-labels_only-B0": "1de07c82efda7f0701a18a7a5ff1ca8b8bc19b9aef0de8e6b8fdae31fd1db87c",
+    "hust-t3-L0-s1-labels_only-B1": "41e7fb440eb89e514f7331b6bedef8c6e6d6659d1f6857a9e96f66c30294be42",
+    "hust-t3-L0-s1-selection_only-B0": "a2c5c9735c0acf5e6256635d881a6dbb224b153f5c957af53262003c449c655e",
+    "hust-t3-L0-s1-selection_only-B1": "ca2252dfd2b9f73b4cbc5d1fe64e5487fa8806418e28ad2f03cf42d944349d23",
+    "hust-t3-L0-s1-full-B0": "6daacbc1f129527446d7bdf9594998f45b156b05c6e85fd7e4aa7cb6f0561954",
+    "hust-t3-L0-s1-full-B1": "de1f0c0dd90a70e25f7e61943bce3cbd8bb681c43c6ac0520c0491730b769632",
+    "hust-t3-L0-s2-raw-B0": "ec2d94f3d58f77863c77123bd42c02b7b74b410eac55980438bee8c9eac8e141",
+    "hust-t3-L0-s2-raw-B1": "daed43756c121b942506e438f932c894baa4c0db5664d0f1867fa103cb1d77d7",
+    "hust-t3-L0-s2-labels_only-B0": "a2543ade1476a188e316883b1d1c2eab8d61fd0c692c68facbc33d1736c31721",
+    "hust-t3-L0-s2-labels_only-B1": "e77e03ea327ce178890b1ac5132c9771743b656d51e038e7224e5d0a03c5bcb0",
+    "hust-t3-L0-s2-selection_only-B0": "6fc35ca65f3f2aa287942f6becd89b885871263a9b21ace797f8a37aaef87f51",
+    "hust-t3-L0-s2-selection_only-B1": "8177b668c9f25b842c89a7fd24755104af06ca7587f50feee3de14b375e93cc0",
+    "hust-t3-L0-s2-full-B0": "cfb7dfbf220aacf6ac657271cd57062e2f3b03018f69ee550c01c4a329f76105",
+    "hust-t3-L0-s2-full-B1": "84ad1759767b2af09e5a079392be5a6bbbdc37efb553cc19c0b787b0f2d0a447"
+  },
+  "baseline_protocol_sha256": "59e618a39e159dfeea66a4b267f1e8dab6924afddcc51c61b421d97af918f737",
+  "input_sha256": {
+    "experiments/pc2g_cross_dataset/run_rotation.py": "b6f02a662b36ac941aa74439997687ad4ab88f60b5f9a1ddaa0c40df50d67bf7",
+    "experiments/pc2g_cross_dataset/rotation_worker.py": "6abf95062c249aa627f0792f8be239f042f7978285cb8ecbf90cfbe458672810",
+    "experiments/pc2g_cross_dataset/tasks.py": "07506cbb76c1d25145c3b937e2e33f07e7ab699ee4ed96e8b5fe886c8b2013a9",
+    "experiments/pc2g_cross_dataset/hust.py": "5094258973485f427467ae317da6e7f04416448373ee0afcb0a3931b7c2674b0",
+    "experiments/pc2g_cross_dataset/offline_pilot_diagnostics.py": "ffc65d9318a7a0f142d1c6ed2368cfcd45da229a2a791d176caebd7fc691eb0d",
+    "experiments/pc2g_cross_dataset/run_pilot.py": "5fca2d029d9542ff61c8f73e05b7c7a33eaf2fbee55c800e47f045ff64fc8d93",
+    "experiments/pc2g_research_audit/core.py": "3f953cef13b8903f66bfe39c54a487365c0521ac7849677b6780bdc9b2c1a55d",
+    "experiments/da_mechanism_diagnosis/replay_training.py": "dc4d9a58c6a5dc4779c1f8c1549f14b515ee61d089d1370866ad63d75e9d1122",
+    "experiments/msdgn_distribution/train.py": "5980eaab52b00de94d8b4062a2eb31c9302e2e22d6cdba4a1649773c390fd3fc",
+    "experiments/msdgn_distribution/modules.py": "0a5c8b6ad55d57ef83988a1fe545faacf4cd7136314f4902984404939a55c364",
+    "experiments/msdgn_distribution/compatible_model.py": "dbcdce709259d672fe553c879015647700feac517723ea2306419cfa2b50142d",
+    "repos/MSDGN/mmd.py": "8cee2d47afa4f918a2d40154d2bd3e93b8bcfe4519a189aa62072491800f1949",
+    "output/pc2g_cross_dataset_stage2/hust_manifest.csv": "9c24485ed4caeeb25f8fb42a9e9141efc2cb0d8d7c6affda4017ca35eec196ac"
+  }
+}
